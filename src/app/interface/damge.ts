@@ -1,4 +1,4 @@
-export interface Damge {
+export interface Damage {
   timestamp: Date,
   instanceID: number,
   sourceID: number,
@@ -12,4 +12,10 @@ export interface Damge {
   IsMultiHit: boolean,
   IsMisc: boolean,
   IsMisc2: boolean
+}
+
+export interface DisplayData {
+  sourceName: string,
+  DPS: number,
+  Damage: number,
 }
