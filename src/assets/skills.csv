@@ -1,0 +1,1237 @@
+Type,ID,Kind,Name
+Rod hit,1698836726,Melee,Rod first normal attack
+Rod hit,1698835954,Melee,Rod second normal attack
+Rod hit,1698835891,Melee,Rod third normal attack
+Talis hit,603769614,Ranged,Talis first normal attack
+Talis hit,603769679,Ranged,Talis second normal attack
+Talis hit,603769484,Ranged,Talis third normal attack
+Foie,2875245395,Tech,Uncharged
+Foie,169905548,Tech,Charged
+Gifoie,46933754,Tech,Uncharged
+Gifoie,1396192371,Tech,Charged
+Rafoie,3727832945,Tech,Uncharged
+Rafoie,3160663286,Tech,Charged
+Safoie,992062163,Tech,Uncharged
+Safoie,1313506350,Tech,Charged
+Safoie (C),2566461378,Tech,Safoie (Type-0) uncharged first hit
+Safoie (C),1314363598,Tech,Safoie (Type-0) uncharged 
+Safoie (C),2588035419,Tech,Safoie (Type-0) charged first hit
+Safoie (C),166001586,Tech,Safoie (Type-0) charged
+Nafoie,3050042460,Tech,Ground_ Uncharged
+Nafoie,4054265489,Tech,Ground_ Charged
+Nafoie,828617961,Tech,Direct_ Uncharged
+Nafoie,840836682,Tech,Direct_ Charged
+Ilfoie,753131125,Tech,Uncharged
+Ilfoie,3465265553,Tech,Charged
+Barta,266516230,Tech,Uncharged
+Barta,2503064048,Tech,Charged
+Gibarta,4241185338,Tech,Uncharged
+Gibarta,3975187521,Tech,Charged
+Rabarta,2628737071,Tech,Uncharged
+Rabarta,1838809243,Tech,Charged
+Sabarta,1906247115,Tech,Uncharged
+Sabarta,3773240682,Tech,Charged1
+Sabarta,3773212059,Tech,Sabarta charged (crafted?) second hit
+Sabarta,3773297992,Tech,Sabarta charged (crafted?) third hit
+Nabarta,49556873,Tech,Cone
+Nabarta (C),2952624225,Tech,Nabarta (type-0)
+Ilbarta,3811499950,Tech,Uncharged1
+Ilbarta,1100223160,Tech,Charged1
+Ilbarta,3813876239,Tech,Uncharged2
+Ilbarta,1097749259,Tech,Charged2
+Ilbarta,3811409918,Tech,Uncharged3
+Ilbarta,1097489198,Tech,Charged3
+Zonde,1715327776,Tech,Charged
+Zonde,554054867,Tech,Uncharged
+Zonde (C),553845451,Tech,Zonde (type-0 craft) uncharged
+Zonde (C),3325804278,Tech,charged
+Zonde (C),3480669127,Tech,charged final blast
+Gizonde,71596560,Tech,Charged
+Gizonde,3022246617,Tech,Uncharged
+Razonde,3676394406,Tech,Charged
+Razonde,1182047893,Tech,Uncharged
+Sazonde,3103634595,Tech,Charged
+Sazonde,577772084,Tech,Sazonde ignition burn/poisonlike damage? (charged)
+Sazonde,3004803920,Tech,Uncharged
+Zondeel,3588292375,Tech,Charged
+Zondeel,2651268955,Tech,Uncharged
+Nazonde,2789601843,Tech,Charged
+Nazonde,3856490257,Tech,Charged "first thunder"
+Nazonde,4278420419,Tech,Uncharged
+Nazonde,1343119479,Tech,Uncharged Nazonde "first thunder"
+Ilzonde,1756866220,Tech,Charged
+Ilzonde,2398664728,Tech,Uncharged
+Zan,521246550,Tech,Charged
+Zan,1968122153,Tech,Uncharged
+Gizan,240324652,Tech,Charged
+Gizan,3485405777,Tech,Uncharged
+Gizan,3917149067,Tech,Charged
+Razan,1061314683,Tech,Charged
+Razan,1105346738,Tech,Uncharged
+Sazan,886169895,Tech,Charged
+Sazan,3946162743,Tech,Uncharged
+Zanverse,2106601422,Tech,
+Nazan,1233164694,Tech,Charged
+Nazan,1497197786,Tech,Uncharged
+Nazan (C),3917512316,Tech,Nazan (type-0 craft) uncharged
+Nazan (C),1490526560,Tech,second
+Nazan (C),3510056594,Tech,Nazan charged first hit
+Nazan (C),2994867107,Tech,second hit
+Nazan (C),1437435851,Tech,loads of hits
+Ilzan,2891550606,Tech,Charged
+Ilzan,1944592516,Tech,Uncharged
+Grants,696766223,Tech,Charged
+Grants,587902627,Tech,Uncharged
+Gigrants,1564723661,Tech,
+Gigrants,1530463953,Tech,
+Gigrants,1436931332,Tech,
+Gigrants,2514551176,Tech,
+Gigrants,2514506879,Tech,
+Gigrants (C),3628407015,Tech,Gigrants (type-0) spin
+Gigrants (C),3801422187,Tech,Gigrants (type-0) final spin
+Ragrants,1533572763,Tech,Charged
+Ragrants,3561438056,Tech,Uncharged
+Resta,142771121,Tech,
+Resta,4031424500,Tech,
+Resta,195155587,Tech,
+Resta,3436243939,Tech,
+Anti,2654395262,Tech,
+Nagrants,3224409263,Tech,
+Nagrants,441986811,Tech,
+Ilgrants,3937014835,Tech,
+Ilgrants,1775046628,Tech,
+Megid,3476394151,Tech,
+Megid,1348241237,Tech,
+Gimegid,2362873256,Tech,
+Gimegid,2076503293,Tech,
+Ramegid,1346510043,Tech,
+Ramegid,2458729274,Tech,
+Ramegid (C),1488338153,Tech,Ramegid (Type-0) uncharged
+Ramegid (C),3108138604,Tech,Ramegid (Type-0) charged
+Samegid,757530403,Tech,
+Samegid,3731229904,Tech,
+Namegid,803375681,Tech,
+Namegid,2368738938,Tech,
+Ilmegid,3791794807,Tech,
+Ilmegid,3041296659,Tech,
+Fomelgion,9380787,Tech,???
+Fomelgion,1671704953,Tech,???
+Zandion,481495314,Tech,???
+Zandion,2644417114,Tech,???
+Barantsion,295363461,Tech,Barantsion
+Barantsion,3388489620,Tech,Barantsion
+Barantsion,1163319447,Tech,Barantsion
+Barantsion,2334157934,Tech,Barantsion
+Barantsion,2379907725,Tech,Barantsion
+Rod Shoot,82081592,Special,Rod Shoot (Fo skill)
+Rod Shoot (ring),102418521,Special,Another Rod Shooting Mode ring
+Freeze Ignition,3533119346,Special,Freeze Ignition (Fo skill)
+Wand hit,1775819901,Melee,Wand
+Wand hit,1775820734,Melee,Wand
+Wand hit,1775820799,Melee,Wand
+Wand Step Attack,1777037248,Melee,Wand (step attack)
+Wand Gear,2614865725,Tech,Wand Gear (Ice)
+Wand Gear,1479548096,Tech,Wand Gear (Fire)
+Wand Gear,789614525,Tech,Wand Gear (Thunder)
+Wand Gear,3274663457,Tech,Wand Gear (Light)
+Wand Gear,1513048310,Tech,Wand Gear (Dark)
+Wand Gear,3948088357,Tech,Wand Gear (Wind)
+Poison Ignition,2532986093,Special,Poison Ignition (Te skill)
+Unarmed hit,3481186334,Melee,Unarmed first normal attack
+Unarmed hit,1578628668,Melee,Unarmed second normal attack
+Unarmed hit,888355388,Melee,Unarmed third normal attack
+Unarmed hit,1306546230,Melee,Unarmed air first normal attack
+Unarmed hit,439463649,Melee,Unarmed air second normal attack
+Unarmed hit,2213730805,Melee,Unarmed air third normal attack
+Unarmed Step Attack,2071807444,Melee,Unarmed step attack
+Unarmed Ducking Blow,3085782811,PA,Unarmed Ducking Blow
+Just Guard,1612949165,Special,Hunter Weapon JG
+Snatch Step,3943870236,Melee,Braver Snatch Step
+Sword Step Attack,1216456228,Melee,Sword
+Sword hit,1215379240,Melee,Sword_ 1st
+Sword hit,1215379433,Melee,Sword_ 2nd
+Sword hit,1215367338,Melee,Sword_ 3rd
+Sword hit,1331225593,Melee,Sword air first normal attack 
+Sword hit,1331225146,Melee,Sword air second normal attack
+Sword hit,1331225211,Melee,Sword air third normal attack
+Sword Step Attack (C),1279043576,Melee,Sword Step Attack (Sacrifice's Bite ver)
+Sword hit (C),2001359545,Melee,Sword first normal attack (Sacrifice's Bite ver)
+Sword hit (C),2002747972,Melee,Sword second normal attack (Sacrifice's Bite ver)
+Sword hit (C),2084739075,Melee,Sword third normal attack (Sacrifice's Bite ver)
+Sword hit (C),1351584013,Melee,Sword air first normal attack (Sacrifice's Bite ver)
+Sword hit (C),1353244642,Melee,Sword air second normal attack (Sacrifice's Bite ver)
+Sword hit (C),1354018567,Melee,Sword air third normal attack (Sacrifice's Bite ver)
+Rising Edge,1227622308,PA,Start
+Rising Edge,1224723795,PA,Spin
+Twister Fall,1224723730,PA,Spin
+Twister Fall,3096797813,PA,Slam
+Twister Fall,3096804787,PA,Twister Fall second slam part
+Twister Fall,3096805226,PA,Twister Fall third slam part
+Twister Fall (C),3096804398,PA,Crafted spin
+Twister Fall (C),1227789065,PA,Crafted slam
+Twister Fall (C),1227789258,PA,Twister Fall crafted second slam part
+Twister Fall (C),1227788826,PA,Twister Fall crafted third slam part
+Nova Strike,3096784224,PA,1st
+Nova Strike,3096784697,PA,2nd
+Nova Strike,3034360175,PA,3rd
+Ride Slasher,1224723856,PA,
+Over End,3096759815,PA,First 4
+Over End,3330009863,PA,Final
+Over End,3096759878,PA,???
+Over End,3096760066,PA,???
+Stun Concido,1224723991,PA,
+Sonic Arrow,3096760613,PA,no gear
+Sonic Arrow,3096760676,PA,partial gear
+Sonic Arrow,3096768032,PA,full gear
+Sonic Arrow,1410023705,PA,???
+Cruel Throw,2150373435,PA,grab
+Cruel Throw,1224724117,PA,thrown
+Enemy Thrown,2164805818,PA,beatdown
+Guilty Break,3096967176,PA,no charge 1
+Guilty Break,784836873,PA,no charge 2
+Guilty Break,3096967243,PA,half charge 1
+Guilty Break,785070206,PA,half charge 2
+Guilty Break,3096936719,PA,full charge 1
+Guilty Break,297995916,PA,full charge 2
+Sacrifice's Bite,526157945,PA,Sacrifice's bite latch
+Sacrifice's Bite,2275427188,PA,Sacrifice's bite charges
+Sacrifice's Bite,985472180,PA,Sacrifice's bite short-charge
+Sacrifice's Bite,2606728976,PA,Sacrifice's bite smack
+Sacrifice's Bite (C),1040118139,PA,Sacrifice's Bite (Type-0) latch
+Sacrifice's Bite (C),179195970,PA,Sacrifice's Bite (Type-0) charge
+Sacrifice's Bite (C),3909378260,PA,Sacrifice's Bite (Type-0) quick-charge
+Sacrifice's Bite (C),3040541025,PA,Sacrifice's Bite (Type-0) hit
+Ignition Parry,3096775537,PA,Ignition Parry first four strikes (parried version uses this as well)
+Ignition Parry,54200585,PA,Ignition Parry final two strikes
+Ignition Parry,498184876,PA,Ignition Parry parried first hit
+Ignition Parry,915579056,PA,Ignition Parry parried last 2 hits
+Ignition Parry,54200648,PA,Ignition Parry 1 gear last 2 hits
+Ignition Parry,54200890,PA,Ignition Parry 2 gear last 2 hits
+Ignition Parry,915578993,PA,Ignition Parry 1 gear last 2 hits parried
+Ignition Parry,915561415,PA,Ignition Parry 2 gear last 2 hits parried
+Partizan hit,2285482403,Melee,Partisan 1
+Partizan hit,2226608029,Melee,Partisan 2
+Partizan hit,3208780153,Melee,Partisan 3
+Partizan hit,689132866,Melee,Partizan air first normal attack
+Partizan hit,2984060434,Melee,Partizan air second normal attack
+Partizan hit,3685709820,Melee,Partizan air third normal attack
+Partizan Step Attack,998183821,Melee,Partisan Step
+Slide Shaker,636978853,PA,Slide Shaker spin no gear
+Slide Shaker,1520282204,PA,Slide Shaker final hit no gear
+Slide Shaker,3227905532,PA,Spin
+Slide Shaker,2058300958,PA,Final
+Speed Rain,2526158104,PA,Speed Rain no gear
+Speed Rain,2059941313,PA,
+Rising Flag,2304899440,PA,Rising Flag first hit no gear
+Rising Flag,1539563132,PA,Rising Flag second hit no gear
+Rising Flag,4126118223,PA,Rising Flag first hit with gear
+Rising Flag,3118916294,PA,Rising Flag second hit with gear
+Zenith Throw,3489365027,PA,Zenith throw hit and pickup
+Zenith Throw,433956771,PA,Zenith throw thrown
+Zenith Throw,3149659211,PA,Zenith throw hit and pickup (g)
+Zenith Throw,2913954274,PA,Zenith throw thrown (g)
+Trick Rave,2653614511,PA,Trick Rave first 5 hits
+Trick Rave,13652846,PA,Trick Rave final hit
+Trick Rave,3731898348,PA,Trick Rave first 5 hits (gear)
+Trick Rave,3577272225,PA,Trick Rave final hit (gear)
+Slide End,377464480,PA,Slide End uncharged
+Slide End,2909671153,PA,Slide End charged
+Slide End,3587562687,PA,Slide End uncharged (gear)
+Slide End,1834644812,PA,Slide End charged (gear)
+Assault Buster,3303155134,PA,Assault Buster
+Assault Buster,2759272399,PA,Assault Buster charge
+Assault Buster,1141954068,PA,Assault Buster (gear)
+Assault Buster,345377627,PA,Assault Buster charge (gear)
+Bandersnatch,3904258146,PA,Bandersnatch
+Bandersnatch,4105316267,PA,Bandersnatch (gear)
+Sacred Skewer,978114411,PA,Sacred Skewer
+Sacred Skewer,3090311227,PA,Sacred Skewer (gear)
+Sacred Skewer (C),1194865789,PA,Sacred Skewer (type-0) no gear uncharged
+Sacred Skewer (C),458263249,PA,Sacred Skewer (type-0) gear uncharged
+Sacred Skewer (C),2210359068,PA,Sacred Skewer (type-0) no gear charged
+Sacred Skewer (C),2391746623,PA,Sacred Skewer (type-0) gear charged
+Vol Graptor,936938020,PA,Vol Graptor
+Vol Graptor,925141705,PA,Vol Graptor charged
+Tear Grid,3331228937,PA,Tear Grid combo hits
+Tear Grid,195498830,PA,Tear Grid final hit
+Tear Grid,3630719180,PA,Tear Grid combo hits(g)
+Tear Grid,3226393072,PA,Tear Grid final hit (g)
+WL hit,1667827810,Melee,Wired Lance 1
+WL hit,1667827875,Melee,Wired Lance 2
+WL hit,1667828192,Melee,Wired Lance 3
+WL Step Attack,1667395446,Melee,WL Step
+Bind Through,2996928382,PA,Bind Through pickup
+Bind Through,377627045,PA,Bind Through slam
+Grapple Charge,1615246036,PA,Grapple Charge grapple
+Grapple Charge,1667543020,PA,Grapple Charge charge
+Heavenly Fall,4142951253,PA,Heavenly Fall heaven
+Heavenly Fall,1713894514,PA,Heavenly Fall fall
+Other Cyclone,1850125110,PA,Other Cyclone grab
+Other Cyclone,1871999855,PA,Other Cyclone cyclone
+Other Cyclone,455829749,PA,Other Cyclone fling
+Other Cyclone (C),1370775705,PA,Other Cyclone craft grab
+Other Cyclone (C),3838831464,PA,spin
+Other Cyclone (C),3070400580,PA,throw
+Other Cyclone (C),4266934922,PA,Other Cyclone (C) thrown into enemy (ground)
+Other Cyclone (C),1107498562,PA,Other Cyclone (C) thrown into enemy (air)
+Other Spin,781364083,PA,Other spin start
+Other Spin,516963559,PA,Other spin spin
+Other Spin,1667539754,PA,Other spin end
+Holding Current,3976609677,PA,Holding current latch
+Holding Current,4083023452,PA,Holding current spamclick ticks
+Holding Current,604066823,PA,Holding current auto ticks
+Holding Current,1667539691,PA,Holding current detatch
+Air Pocket Swing,1667539880,PA,Air Pocket Swing
+Cerberus Dance,1667539817,PA,Cerberus Dance
+Cerberus Dance,185880800,PA,Cerberus Dance finish
+Cerberus Dance (C),4083015423,,Cerberus Dance (crafted)
+Cerberus Dance (C),1181894001,,Cerberus Dance finish (crafted)
+Wild Round,1667539503,PA,Wild Round
+Kaiser Rise,4083089437,PA,Kaiser Rise
+Adapting Spin,4083089500,PA,Adapting spin 
+Gunslash hit,3318968327,Melee,Gunslash M1
+Gunslash hit,1408075886,Melee,Gunslash M2
+Gunslash hit,2364486899,Melee,Gunslash M3
+Gunslash hit,1405961624,Melee,Gunslash (striking mode) air first normal attack
+Gunslash hit,3342919411,Melee,Gunslash (striking mode) air second normal attack
+Gunslash hit,3800743499,Melee,Gunslash (striking mode) air third normal attack
+Gunslash hit,2125202658,Ranged,Gunslash R1
+Gunslash hit,4276570552,Ranged,Gunslash R2
+Gunslash hit,2867139739,Ranged,Gunslash R3
+Gunslash Step Attack,2277392279,Melee,Gunslash Step
+Tri-Impact,3316645180,PA,Tri Impact first two hits
+Tri-Impact,1956354608,PA,Tri Impact third impact
+Tri-Impact (C),2041657518,PA,Tri-Impact Crafted first non-slash hit
+Tri-Impact (C),4121081309,PA,Tri Impact Crafted hit
+Tri-Impact (C),3770139908,PA,Tri Impact Crafted hit
+Tri-Impact (C),1585984604,PA,Tri Impact Crafted hit
+Rage Dance,4069575100,PA,Rage dance stabs
+Rage Dance,2375995786,PA,Rage dance shot
+Ein Raketen,1803337451,PA,Ein Raketen swing
+Ein Raketen,4080719295,PA,Ein Raketen shot
+Ein Raketen (C),867419120,PA,Ein Raketen (type-0) hit
+Ein Raketen (C),2879859001,PA,Ein Raketen (type-0) slash stationary
+Ein Raketen (C),2001154192,PA,Ein Raketen (type-0) slash
+Serpent Air,3780905363,PA,Serpent Air hits
+Serpent Air,3959349048,PA,Serpent Air final hit
+Aiming Shot,1657878962,PA,Aiming Shot (uncharged)
+Aiming Shot,1657879790,PA,Aiming shot (charged)
+Thrillsplosion,3912567547,PA,Thrillsplosion
+Slash Rave,799003079,PA,Slash rave combo hits
+Slash Rave,799003014,PA,Slash rave finishing shot part 1
+Slash Rave,1159428500,PA,Slash rave finishing shot part 2
+Slash Rave,3180075746,PA,Slash Rave finishing shot part 2 no stagger
+Additional Bullet,2250284406,PA,Additional Bullet kick
+Additional Bullet,2775356067,PA,Additional Bullet shot
+Kreisenschlag,4071330996,PA,Kreisenschlag (some hits)
+Kreisenschlag,3235361631,PA,Kreisenschlag (other hits)
+Regenschlag,74469442,PA,Regenschlag strike one
+Regenschlag,74466659,PA,Regenschlag strike two
+Regenschlag,74468002,PA,Regenschlag triple shot
+Strezwei,3169780679,PA,Starzwei melee startup
+Strezwei,3169781527,PA,Starzwei melee hits (+range twirl)
+Strezwei,3169781648,PA,Starzwei melee finisher
+Strezwei,3169644227,PA,Ranged version (spin)
+DS hit,778603760,Melee,Double Saber 1
+DS hit,2169426261,Melee,Double Saber 2
+DS hit,1915920209,Melee,Double Saber 3
+DS hit,3587443201,Melee,Double Saber air first normal attack
+DS hit,2489626506,Melee,Double Saber air second normal attack
+DS hit,3086213424,Melee,Double Saber air third normal attack
+DS Step Attack,422538670,Melee,Double Saber Step
+DS Tornado,2620269130,Special,level 1
+DS Tornado,2620268940,Special,level 2
+DS Tornado,2620269005,Special,level 3
+Tornado Dance (C),275226098,PA,
+Tornado Dance (C),3746811944,PA,
+Tornado Dance,1825444869,PA,
+Scissor Edge,1652495452,PA,Scissor Edge initial hit
+Scissor Edge,2998595631,PA,Scissor Edge additional hits
+Rumbling Moon,4252278068,PA,Rumbling moon first four hits
+Rumbling Moon,4115432396,PA,Rumbling moon final hit
+Illusion Rave,262573151,PA,Illusion Rave (like the first half)
+Illusion Rave,1810428573,PA,Illusion Rave (other half of the hits)
+Illusion Rave,122219643,PA,Illusion Rave (Final hit - third half!!)
+Fake Capture,206972203,PA,Fake Capture hits
+Fake Capture,207210116,PA,Fake Capture slam dunk
+Surprise Dunk,1531593100,PA,Surprise Dunk (first three hits)
+Surprise Dunk,129472838,PA,Surprise Dunk (dunk portion)
+Deadly Archer,4243814605,PA,Deadly Archer
+Acro Effect,2726424864,PA,Acro Effect
+Deadly Circle,1319999679,PA,Deadly Circle
+Deadly Circle (C),1215958429,PA,Deadly Circle craft
+Chaos Riser,3025396833,PA,Chaos Riser (no gear)
+Chaos Riser,3025396896,PA,Chaos Riser (Level 2 gear)
+Chaos Riser,3025396960,PA,Chaos Riser
+Huricane Sender,1523926491,PA,Hurricane sender send
+Huricane Sender,524784934,PA,Hurricane sender detonate
+Huricane Sender,1523926426,PA,Hurricane sender send (level2 gear)
+Huricane Sender,524782206,PA,Hurricane detonate (level 2 gear)
+Huricane Sender,1523926105,PA,Hurricane send (level 2 gear)
+Huricane Sender,524782271,PA,Hurricane detonate (*level 3 gear)
+TD hit,2378312327,Melee,
+TD hit,2378312320,Melee,
+TD hit,2378312321,Melee,
+TD hit,3816723344,Melee,0 gear air first normal attack
+TD hit,3816723347,Melee,1 gear
+TD hit,3816723346,Melee,2 gear
+TD hit,3816723349,Melee,3 gear
+TD hit,1163229184,Melee,0 gear air second normal attack
+TD hit,1163229191,Melee,1 gear
+TD hit,1163229190,Melee,2 gear
+TD hit,1163229189,Melee,3 gear
+TD hit,1893769682,Melee,0 gear air third normal attack
+TD hit,1893769685,Melee,1 gear
+TD hit,1893769684,Melee,2 gear
+TD hit,1893769687,Melee,3 gear
+TD Step Attack,2767975965,Melee,TD Step
+TD Spin,3115487285,Special,0 gear TD Spin
+TD Spin,3115487274,Special,1 gear
+TD Spin,3115487275,Special,2 gear
+TD Spin,3115487272,Special,3 gear
+Raging Waltz,238277165,PA,Raging Waltz 0 gear
+Raging Waltz,238277154,PA,Raging Waltz 1 gear
+Raging Waltz,238277155,PA,Raging Waltz 2 gear
+Raging Waltz,238277152,PA,Raging Waltz 3 gear
+Raging Waltz (C),1205859348,PA,Raging Waltz (type-0) 1(?) gear
+Raging Waltz (C),1205859349,PA,Raging Waltz (type-0) 2(?) gear
+Raging Waltz (C),1205859350,PA,Raging Waltz (type-0) 3(?) gear
+Shoot Polka,2053605232,PA,Shoot Polka 'stage 0' gear
+Shoot Polka,2053605233,PA,Shoot Polka 'stage 1' gear
+Shoot Polka,2053605246,PA,Shoot Polka 'stage 2' gear
+Shoot Polka,2053605247,PA,Shoot Polka 'stage 3' gear
+Scar Fugue,1193225277,PA,Scar Fugue 0 gear first hit
+Scar Fugue,1193225276,PA,1 gear
+Scar Fugue,1193225279,PA,2 gear
+Scar Fugue,1193225278,PA,3 gear
+Scar Fugue,2790036905,PA,Scar Fugue 0 gear second hit
+Scar Fugue,2790036906,PA,1 gear
+Scar Fugue,2790036907,PA,2 gear
+Scar Fugue,2790036908,PA,3 gear
+Scar Fugue,721495005,PA,Scar Fugue 0 gear third hit
+Scar Fugue,721495004,PA,1 gear
+Scar Fugue,721495003,PA,2 gear
+Scar Fugue,721495002,PA,3 gear
+Wild Rhapsody,3998547224,PA,Wild Rhapsody 'stage 0' gear
+Wild Rhapsody,3998547225,PA,Wild Rhapsody 'stage 1' gear
+Wild Rhapsody,3998547226,PA,Wild Rhapsody 'stage 2' gear
+Wild Rhapsody,3998547227,PA,Wild Rhapsody 'stage 3' gear
+Dark Scherzo,2711968273,PA,Dark Scherzo 0 gear first two hits
+Dark Scherzo,2711968272,PA,Dark Scherzo 1 gear
+Dark Scherzo,2711968287,PA,Dark Scherzo 2 gear
+Dark Scherzo,2711968286,PA,Dark Scherzo 3 gear
+Dark Scherzo,2115627931,PA,Dark Scherzo 0 gear final
+Dark Scherzo,2115627930,PA,Dark Scherzo 1 gear
+Dark Scherzo,2115627909,PA,Dark Scherzo 2 gear
+Dark Scherzo,2115627908,PA,Dark Scherzo 3 gear
+Quick March,3438453616,PA,Quick March 0 gear 2 kicks
+Quick March,3438453623,PA,Quick March 1 gear
+Quick March,3438453622,PA,Quick March 2 gear
+Quick March,3438453621,PA,Quick March 3 gear
+Quick March,751181375,PA,Quick March 0-1(?) gear final
+Quick March,751181369,PA,Quick March 2 gear
+Quick March,751181368,PA,Quick March 3 gear
+Symphonic Drive,2764513441,PA,0 gear Symphonic Drive first kick
+Symphonic Drive,2764513442,PA,1 gear
+Symphonic Drive,2764513443,PA,2 gear
+Symphonic Drive,2764513444,PA,3 gear
+Symphonic Drive,167868454,PA,0 gear Symphonic Drive second kick
+Symphonic Drive,167868455,PA,1 gear
+Symphonic Drive,167868448,PA,2 gear
+Symphonic Drive,167868449,PA,3 gear
+Orchestra,120509749,PA,0 gear Orchestra
+Orchestra,120509750,PA,1 gear
+Orchestra,120509751,PA,2 gear
+Orchestra,120509752,PA,3 gear
+Orchestra,1362404324,PA,0 gear Orchestra finish
+Orchestra,1362404325,PA,1 gear
+Orchestra,1362404326,PA,2 gear
+Orchestra,1362404327,PA,3 gear
+Bloody Sarabande,1022160397,PA,Bloody Saranbande 0 gear pt1
+Bloody Sarabande,1022160396,PA,Bloody Saranbande 1 gear
+Bloody Sarabande,1022160395,PA,Bloody Saranbande 2 gear
+Bloody Sarabande,1022160394,PA,Bloody Saranbande 3 gear
+Bloody Sarabande,1185927985,PA,Bloody Saranbande 0 gear pt2 ground
+Bloody Sarabande,2745888524,PA,Bloody Saranbande 0 gear pt2 air
+Bloody Sarabande,2745888515,PA,Bloody Saranbande 1 gear
+Bloody Sarabande,2745888514,PA,Bloody Saranbande 2 gear
+Bloody Sarabande,2745888513,PA,Bloody Saranbande 3 gear
+Facet Folia,2569859798,PA,Facet Folia 0 gear start
+Facet Folia,2569859799,PA,Facet Folia 1 gear
+Facet Folia,2569859796,PA,Facet Folia 2 gear
+Facet Folia,2569859797,PA,Facet Folia 3 gear
+Facet Folia,3225817327,PA,Facet Folia 0 gear combo
+Facet Folia,3225817324,PA,Facet Folia 1 gear
+Facet Folia,3225817325,PA,Facet Folia 2 gear
+Facet Folia,3225817234,PA,Facet Folia 3 gear
+Facet Folia,1460149683,PA,Facet Folia 0 gear finish
+Facet Folia,1460149681,PA,Facet Folia 1 gear
+Facet Folia,1460149686,PA,Facet Folia 2 gear
+Facet Folia,1460149680,PA,Facet Folia 3 gear
+Fall Nocturne,1622238417,PA,Fall Nocturne 0-1 gear
+Fall Nocturne,1622238480,PA,Fall Nocturne 2 gear
+Fall Nocturne,1622238547,PA,Fall Nocturne 3 gear
+Knuckles hit,1325529929,Melee,Knuckles 1
+Knuckles hit,1539605878,Melee,Knuckles 2
+Knuckles hit,2996195244,Melee,Knuckles 3
+Knuckles hit,3833651966,Melee,Knuckles air first normal attack
+Knuckles hit,3392788140,Melee,Knuckles air second normal attack
+Knuckles hit,2085169672,Melee,Knuckles air third normal attack
+Knuckles Step Attack,1024789612,Melee,Knuckles Step
+Ducking Blow,3490454980,PA,
+Flicker Jab,2220142187,PA,
+Pendulum Roll,2800536054,PA,
+Slide Uppercut (C),4153501826,PA,Slide Uppercut (crafted)
+Slide Uppercut (C),4153501763,PA,Slide Uppercut (crafted) uncharged
+Straight Charge,3732653666,PA,Straight Charge (first hit) charge
+Straight Charge,3964807003,PA,Straight Charge (after first) charge
+Straight Charge,524347705,PA,Straight Charge (first hit) uncharge
+Straight Charge,2294749657,PA,Straight Charge (after first) uncharge
+Straight Charge (C),3383204495,PA,Straight Charge (Type-0) no charge
+Straight Charge (C),1438955103,PA,Straight Charge (Type-0) charge 1 (activates after 5 hits)
+Quake Howling,895673964,PA,Quake howling
+Surprise Knuckle,71364306,PA,Surprise Knuckle
+Flash Thousand,1586239574,PA,Flash Thousand uppercut
+Flash Thousand,3809237665,PA,Flash Thousand jabs
+Backhand Smash,653244323,PA,Backhand Smash
+Backhand Smash,653244128,PA,Backhand Smash
+Backhand Smash,653244002,PA,Backhand Smash
+Meteor Fist,2796397201,PA,Meteor Fist (lots of fists edition)
+Meteor Fist,1647551898,PA,Meteor Fist charged (lots of fists)
+Meteor Fist,1160708678,PA,Meteor Fist (medium fist no gear)
+Meteor Fist,1050511877,PA,Meteor Fist (bigass fist edition)
+Meteor Fist,70519939,PA,MEGAFIST
+Heartless Impact,1169988911,PA,Heartless Impact part 1
+Heartless Impact,63569063,PA,Heartless Impact part 2
+Katana hit,3146534752,Melee,Katana 1
+Katana hit,3146534691,Melee,Katana 2
+Katana hit,3146534882,Melee,Katana 3
+Katana hit,3103989825,Melee,Katana air first normal attack 
+Katana hit,3103990658,Melee,Katana air second normal attack
+Katana hit,3103990723,Melee,Katana air third normal attack
+Katana Step Attack,3106156042,Melee,Katana Step
+Just Counter,2700168094,Special,Just Counter 0 gear hit
+Just Counter,2700168093,Special,Just Counter 1 gear
+Just Counter,2700168092,Special,Just Counter 2 gear
+Just Counter,4143333980,Special,Just Counter 3 gear
+Just Counter,4136181738,Special,Just Counter (2-3 gear) second hit
+Counter Edge,1987114712,Special,Counter Edge 0-1 gear
+Counter Edge,4184015666,Special,Counter Edge 2-3 gear
+Tsukimi-sazanka,3148575588,PA,Tsukimi-sazanka
+Gekka-zakuro,215665118,PA,Gekka-zakuro downswing
+Gekka-zakuro,2160628938,PA,Gekka upswing
+Kanran-kikyou,3148575462,PA,Kanran uncharged
+Kanran-kikyou,206856796,PA,Kanran charged
+Sakura-endo,3148575399,PA,Sakura uncharged
+Sakura-endo,206860877,PA,Sakura charged
+Sakura-endo (C),3124578212,PA,Sakura-endo (type-0) first hit
+Sakura-endo (C),18135230,PA,Sakura-endo (type-0) second hit
+Hien-tsubaki,3148574817,PA,Hien
+Asagiri-rendan,3148574752,PA,Asagiri
+Asagiri-rendan,3341396290,PA,Asagiri-rendan final hit
+Hatou-rindou,106956039,PA,Hatou Rindou charged first hit
+Hatou-rindou,168167719,PA,Hatou Rindou charged second hit
+Hatou-rindou,3651508774,PA,Hatou uncharged
+Hatou-rindou,2325733367,PA,Hatou uncharged doublehit
+Hatou-rindou,273071015,PA,Hatou charged close
+Hatou-rindou,2209628291,PA,Hatou charged medium
+Hatou-rindou,1651702934,PA,Hatou charged SWEET SPOOOOT
+Shunka-shunran,2585461118,PA,Shunka uncharged
+Shunka-shunran,3513096229,PA,Shunka charged start
+Shunka-shunran,2264839669,PA,Shunka charged main combo
+Shunka-shunran,1450022218,PA,Shunka-shunran left/right slash
+Shunka-shunran,1309789969,PA,Shunka megaslash 1 of 2
+Shunka-shunran,2017360610,PA,Shunka megaslash 2 of 2
+Kazan-nadeshiko,3148578174,PA,Kazan (uncrafted)
+Kazan-nadeshiko (C),2323234226,PA,Kazan (crafted) uncharged
+Kazan-nadeshiko (C),2323234289,PA,Kazan (crafted) stage 1 charge
+Kazan-nadeshiko (C),2323233840,PA,Kazan (crafted) stage 2 charge
+Fuduo-kuchinashi,206850016,PA,Fuduo
+Guren-tessen,1776976279,PA,Guren dash
+Guren-tessen,1522008442,PA,Guren slash
+Katana Combat,156270665,Special,Katana finish slash
+Katana Combat,4259442013,Special,Katana finish megaslash
+DB hit,990294516,Melee,Dual Blades first normal attack
+DB hit,990294325,Melee,Dual Blades second normal attack
+DB hit,990294387,Melee,Dual Blades third normal attack
+DB hit,996054556,Melee,Dual Blades air first normal attack
+DB hit,996054749,Melee,Dual Blades air second normal attack
+DB hit,996054686,Melee,Dual Blades air third normal attack
+DB Step Attack,991363414,Melee,Dual Blades step attack
+DB Snatch Step,1317379950,Special,Dual Blade Snatch step ring
+Photon Blades,3920319747,Special,Photon blades
+Photon Blades,2866606807,Special,Photon blade fever
+Distraction Wing,2674942872,PA,Distraction Wing
+Distraction Wing,2674942873,PA,- One gear bar
+Distraction Wing,2674942854,PA,- Two gear bars
+Distraction Wing,2674942855,PA,- Three gear bars
+Dispersion Shrike,1077400737,PA,Dispersion Strike
+Dispersion Shrike,1077400736,PA,- One gear bar
+Dispersion Shrike,1077400739,PA,- Two gear bars
+Dispersion Shrike,1077400738,PA,- Three gear bars
+Heavenly Kite,1536765733,PA,Heavenly Kite (start)
+Heavenly Kite,1536765732,PA,- One gear bar
+Heavenly Kite,1536765735,PA,- Two gear bars
+Heavenly Kite,1536765734,PA,- Three gear bars
+Heavenly Kite,3702927798,PA,Heavenly Kite (spin)
+Heavenly Kite,3702927797,PA,- One gear bar
+Heavenly Kite,3702927796,PA,- Two gear bars
+Heavenly Kite,3702927803,PA,- Three gear bars
+Justice Crow,770345041,PA,Justice Crow (star forming)
+Justice Crow,770345042,PA,- One gear bar
+Justice Crow,770345043,PA,- Two gear bars
+Justice Crow,770345044,PA,- Three gear bars
+Justice Crow,1549517485,PA,Justice Crow (projectile shot)
+Justice Crow,1549517474,PA,- One gear bar
+Justice Crow,1549517475,PA,- Two gear bars
+Justice Crow,1549517472,PA,- Three gear bars
+Starling Fall,2231885709,PA,Starling Fall (hit 1)
+Starling Fall,2231885710,PA,- One gear bar
+Starling Fall,2231885711,PA,- Two gear bars
+Starling Fall,2231885744,PA,- Three gear bars
+Starling Fall,3810810460,PA,Starling Fall (hit 2)
+Starling Fall,3810810461,PA,- One gear bar
+Starling Fall,3810810462,PA,- Two gear bars
+Starling Fall,3810810463,PA,- Three gear bars
+Kestral Rampage,2840651037,PA,Kestral rampage
+Kestral Rampage,2840651036,PA,- One gear bar
+Kestral Rampage,2840651039,PA,- Two gear bars
+Kestral Rampage,2840651038,PA,- Three gear bars
+Kestrel Rampage (C),4277013577,PA,Kestrel Rampage craft no gear
+Kestrel Rampage (C),4277013576,PA,1 gear
+Kestrel Rampage (C),4277013623,PA,2 gear
+Kestrel Rampage (C),4277013622,PA,3 gear
+Immortal Dove,823939487,PA,Immortal Dove (ground hit part 1)
+Immortal Dove,823939486,PA,- One gear bar
+Immortal Dove,823939485,PA,- Two gear bars
+Immortal Dove,823939484,PA,- Three gear bars
+Immortal Dove,630801458,PA,Immortal Dove (ground hit part 2)
+Immortal Dove,630801461,PA,- One gear bar
+Immortal Dove,630801460,PA,- Two gear bars
+Immortal Dove,630801463,PA,- Three gear bars
+Immortal Dove,2263183151,PA,Immortal Dove (air)
+Immortal Dove,2263183150,PA,- One gear bar
+Immortal Dove,2263183145,PA,- Two gear bars
+Immortal Dove,2263183144,PA,- Three gear bars
+Bullet Bow hit,2272169032,Ranged,Bow normal
+Bullet Bow hit,2272172706,Ranged,Bow normal(charge)
+Bullet Bow Step Attack,3762661375,Melee,Step Attack
+Master Shot,346594595,PA,Master Shot (uncharged)
+Master Shot,346612320,PA,Master Shot (charged)
+Penetrating Arrow,345271774,PA,Penetrating Arrow (uncharged)
+Penetrating Arrow,345281053,PA,Penetrating Arrow (charged)
+Torrential Arrow,347381214,PA,Torrential Arrow (uncharged)
+Torrential Arrow,347381151,PA,Torrential Arrow (charged)
+Gravity Point,3485093660,PA,Gravity Point (uncharged)
+Gravity Point,3438287013,PA,Gravity Point suction (uncharged)
+Gravity Point,3485092908,PA,Gravity Point (charged)
+Gravity Point,3438287076,PA,Gravity Point suction (charged)
+Kamikaze Arrow,3470042837,PA,Kamikaze Arrow fling
+Kamikaze Arrow,3439973719,PA,Kamikaze Arrow rebound
+Kamikaze Arrow,3470042646,PA,Kamikaze Arrow fling (charged)
+Kamikaze Arrow,3439973654,PA,Kamikaze Arrow rebound (charged)
+Sharp Bomber,294311563,PA,Sharp Bomber
+Sharp Bomber (C),3671759171,PA,Sharp Bomber (Type-0) uncharged
+Sharp Bomber (C),3671760384,PA,Sharp Bomber (Type-0) charged
+Final Nemesis,3765323771,PA,Final Nemesis
+Tritt Shooter,294299758,PA,Tritt Shooter kicks
+Tritt Shooter,294300276,PA,Tritt Shooter shot
+Tritt Shooter,349059562,PA,Tritt Shooter roundhouse
+Tritt Shooter,349008452,PA,Tritt Shooter (crafted) kicks
+Tritt Shooter,349008990,PA,Tritt Shooter (crafted) shots
+Tritt Shooter,3255472210,PA,Tritt Shooter (crafted) roundhouse
+Banishing Arrow,348753019,PA,Banishing Arrow
+Million Storm,294264661,PA,Million Storm
+Chase Arrow,294264342,PA,Chase Arrow
+Assault Rifle hit,1856399071,Ranged,Rifle shot
+Assault Rifle hit,220156466,Ranged,Rifle Diveroll shoot
+Weak Bullet,713142898,Special,Weak bullet hit
+Bind Bullet,192041748,Special,Bind Bullet (Ra skill)
+Piercing Shell,220056925,PA,Piercing Shell
+Grenade Shell,220057357,PA,Grenade Shell
+One Point,220057548,PA,One Point
+Diffuse Shell,220057487,PA,Diffuse Shell
+Homing Emission,220057166,PA,Homing Emission (uncrafted)
+Homing Emission,3857665729,PA,Homing Emission (crafted)
+Impact Slider,220056584,PA,Impact Slider
+Impact Slider,1218987301,PA,Impact Slider (kick)
+Sneak Shooter,220056777,PA,Sneak Shooter
+Glorious Rain,1190704694,PA,Glorious Rain 'start'
+Glorious Rain,220056714,PA,Glorious Rain
+Parallel Slider,220057419,PA,Parallel Slider
+Parallel Slider (C),3857649477,PA,Parallel Slider (Type-0)
+Satellite Cannon,2295790933,PA,Satellite Cannon (no charge)
+Satellite Cannon,2295790868,PA,Satellite Cannon (half charge)
+Satellite Cannon,2295790295,PA,Satellite Cannon (full charge)
+End Attraction,2285537842,PA,End Attraction (no charge)
+End Attraction,2285537907,PA,End Attraction (half charge)
+End Attraction,2285538736,PA,End Attraction (full charge)
+Gravity Bomb,3695311812,Special,Gravity Bomb
+Stun Grenade,506640607,Special,Stun Grenade
+Upper Trap,2460168075,Special,Upper Trap (Ra skill)
+Poison Trap,3727926333,Special,Poison Trap (Ra skill)
+Launcher hit,594271163,Ranged,First
+Launcher hit,594271098,Ranged,Second
+Launcher hit,594270780,Ranged,Third
+Launcher hit,2731320054,Ranged,Dive roll shoot
+Mirage Shot,3433218069,Special,Mirage Shot (Ra skill)
+Panic Shot,1201754534,Special,Panic Shot (Ra skill)
+Jellen Shot,2734794071,Special,Jellen Shot (Ra skill)
+Divine Launcher,2709160760,PA,Divine Launcher
+Divine Launcher (C),1445952978,PA,uncharged
+Divine Launcher (C),1445953294,PA,charged
+Concentrate One,2709161692,PA,Concentrate One
+Cluster Bullet,2709161629,PA,Cluster Bullet
+Cracker Bullet,2219649314,PA,Cracker Bullet (multihit)
+Cracker Bullet,2709161566,PA,Cracker Bullet (final)
+Zero Distance,2709161503,PA,Zero Distance
+Rodeo Drive,2219642677,PA,Rodeo Drive
+Rodeo Drive,2219641904,PA,Rodeo Drive air start hit
+Rodeo Drive (C),2419129261,PA,Rodeo Drive (type-0) ride 
+Rodeo Drive (C),3817341497,PA,Rodeo Drive (type-0) finisher uncharged
+Rodeo Drive (C),3817342330,PA,Rodeo Drive (type-0) finisher charged
+Crazy Smash,2709161368,PA,Crazy Smash (direct enemy)
+Fake Silhouette,2219699734,PA,Fake Silhouette
+Flame Bullet,2709161242,PA,Flame Bullet
+Cosmos Breaker,2219596384,PA,Cosmos Breaker
+Sphere Eraser,2219595324,PA,Sphere Eraser
+TMG hit,3132894402,Ranged,First attack (4x) 0 gear
+TMG hit,3132894403,Ranged,1 gear
+TMG hit,3132894401,Ranged,2 gear
+TMG hit,3132894400,Ranged,3 gear
+TMG hit,1923738865,Ranged,Second attack (4x) 0 gear
+TMG hit,1923738870,Ranged,1 gear
+TMG hit,1923738868,Ranged,2 gear
+TMG hit,1923738871,Ranged,3 gear
+TMG hit,1901223401,Ranged,Third attack (5x) 0 gear
+TMG hit,1901223406,Ranged,1 gear
+TMG hit,1901223404,Ranged,2 gear
+TMG hit,1901223407,Ranged,3 gear
+TMG hit,2297353124,Ranged,Dive roll shoot 0 gear
+TMG hit,2297352795,Ranged,1 gear
+TMG hit,2297352794,Ranged,2 gear
+TMG hit,2594009166,Ranged,S-roll shoot 0 gear
+TMG hit,2594009167,Ranged,1 gear
+TMG hit,2594009160,Ranged,2 gear
+TMG hit,2594009161,Ranged,3 gear
+Aerial Shooting,891590654,PA,Aerial shooting (uncharged kick) 0 gear
+Aerial Shooting,891590641,PA,1 gear
+Aerial Shooting,891590640,PA,2 gear
+Aerial Shooting,891590643,PA,3 gear
+Aerial Shooting,4004748150,PA,Aerial shooting (charged launch) 0 gear
+Aerial Shooting,4004748151,PA,1 gear
+Aerial Shooting,4004748144,PA,2 gear
+Aerial Shooting,4004748145,PA,3 gear
+Aerial Shooting,4004760231,PA,Aerial shooting (first air hit) 0 gear
+Aerial Shooting,4004760230,PA,1 gear
+Aerial Shooting,4004760225,PA,2 gear
+Aerial Shooting,4004760224,PA,3 gear
+Aerial Shooting,4004772370,PA,Aerial shooting (second air hit) 0 gear
+Aerial Shooting,4004772369,PA,1 gear
+Aerial Shooting,4004772368,PA,2 gear
+Aerial Shooting,4004772375,PA,3 gear
+Bullet Squall,3463411283,PA,Bullet Squall start (uncrafted) 0 gear
+Bullet Squall,3463411282,PA,1 gear
+Bullet Squall,3463411293,PA,2 gear
+Bullet Squall,3463411292,PA,3 gear
+Bullet Squall,443425897,PA,Bullet Squall shots (uncrafted) 0 gear
+Bullet Squall,443425896,PA,1 gear
+Bullet Squall,443425899,PA,2 gear
+Bullet Squall,443425898,PA,3 gear
+Dead Approach,232817712,PA,Dead Approach 0 gear
+Dead Approach,232817719,PA,1 gear
+Dead Approach,232817718,PA,2 gear
+Dead Approach,232817717,PA,3 gear
+Messiah Time,3991628327,PA,Messiah Time (every shot) 0 gear
+Messiah Time,3991628324,PA,1 gear
+Messiah Time,3991628325,PA,2 gear
+Messiah Time,3991628330,PA,3 gear
+Infinite Fire,3134942095,PA,Infinite Fire (initial volley) 0 gear
+Infinite Fire,3134942094,PA,1 gear
+Infinite Fire,3134942093,PA,2 gear
+Infinite Fire,3134942092,PA,3 gear
+Infinite Fire,879653107,PA,Infinite Fire (final volley) 0 gear
+Infinite Fire,879653104,PA,1 gear
+Infinite Fire,879653105,PA,2 gear
+Infinite Fire,879653110,PA,3 gear
+Infinite Fire (C),1612843143,PA,Infinite Fire craft 0 gear shots
+Infinite Fire (C),2004097432,PA,kick
+Infinite Fire (C),1345025835,PA,final blast
+Infinite Fire (C),1612843192,PA,1 gear shots
+Infinite Fire (C),2004097433,PA,kick
+Infinite Fire (C),1345025834,PA,final blast
+Infinite Fire (C),1612843193,PA,2 gear shots
+Infinite Fire (C),2004097434,PA,kick
+Infinite Fire (C),1345025833,PA,blast
+Infinite Fire (C),1612843194,PA,3 gear shots
+Infinite Fire (C),2004097435,PA,kick
+Infinite Fire (C),1345025832,PA,final blast
+Satellite Aim,1770510361,PA,Satellite Aim (hit 1) 0 gear
+Satellite Aim,1770510366,PA,1 gear
+Satellite Aim,1770510367,PA,2 gear
+Satellite Aim,1770510364,PA,3 gear
+Satellite Aim,2273182629,PA,Satellite Aim (hit 2) 0 gear
+Satellite Aim,2273181786,PA,1 gear
+Satellite Aim,2273181787,PA,2 gear
+Satellite Aim,2273181784,PA,3 gear
+Elder Rebellion,1108337397,PA,Elder Rebellion (5 hits) 0 gear
+Elder Rebellion,1108337396,PA,1 gear
+Elder Rebellion,1108337395,PA,2 gear
+Elder Rebellion,1108337394,PA,3 gear
+Elder Rebellion,4042421111,PA,Elder Rebellion (2 blasts) 0 gear
+Elder Rebellion,4042421110,PA,1 gear
+Elder Rebellion,4042421105,PA,2 gear
+Elder Rebellion,4042421104,PA,3 gear
+Elder Rebellion,3412194152,PA,Elder Rebellion (final blast) 0 gear
+Elder Rebellion,3412194159,PA,1 gear
+Elder Rebellion,3412194158,PA,2 gear
+Elder Rebellion,3412194157,PA,3 gear
+Reverse Tap,1550097800,PA,Reverse tap 0 gear
+Reverse Tap,1550097807,PA,1 gear
+Reverse Tap,1550097806,PA,2 gear
+Reverse Tap,1550097805,PA,3 gear
+Heel Stab,2371693862,PA,Heel Stab (first kick) 0 gear
+Heel Stab,2371693863,PA,1 gear
+Heel Stab,2371693860,PA,2 gear
+Heel Stab,2371693861,PA,3 gear
+Heel Stab,4134662873,PA,Heel Stab (uncharged second) 0 gear
+Heel Stab,4134662878,PA,1 gear
+Heel Stab,4134662879,PA,2 gear
+Heel Stab,4134662876,PA,3 gear
+Heel Stab,1163390941,PA,Heel Stab (charged second) 0 gear
+Heel Stab,1163390930,PA,1 gear
+Heel Stab,1163390931,PA,2 gear
+Heel Stab,1163390928,PA,3 gear
+Heel Stab,148870087,PA,Heel Stab (charged volley) 0 gear
+Heel Stab,148870086,PA,1 gear
+Heel Stab,148870081,PA,2 gear
+Heel Stab,148870080,PA,3 gear
+Shift Period,3102409757,PA,Shift Period 0 gear
+Shift Period,3102409758,PA,Shift Period 1 gear
+Shift Period,3102409759,PA,Shift Period 2 gear
+Shift Period,3102409728,PA,Shift Period 3 gear
+Shift Period,2107489028,PA,Shift Period 0 gear
+Shift Period,2107489029,PA,Shift Period 1 gear
+Shift Period,2107489030,PA,Shift Period 2 gear
+Shift Period,2107489031,PA,Shift Period 3 gear
+Shift Period,2928127116,PA,Shift Period 0 gear
+Shift Period,2928127107,PA,Shift Period 1 gear
+Shift Period,2928127106,PA,Shift Period 2 gear
+Shift Period,2928127105,PA,Shift Period 3 gear
+Shift Period,4206265008,PA,Shift Period 0 gear
+Shift Period,4206265011,PA,Shift Period 1 gear
+Shift Period,4206265010,PA,Shift Period 2 gear
+Shift Period,4206265013,PA,Shift Period 3 gear
+Shift Period,2869490729,PA,Shift Period 0 gear final shot
+Shift Period,2869490728,PA,Shift Period 1 gear final shot
+Shift Period,2869490902,PA,Shift Period 2 gear final shot
+Shift Period,2869490903,PA,Shift Period 3 gear final shot
+Grim Barrage,896218141,PA,Grim Barrage 0 gear
+Grim Barrage,896218140,PA,1 gear
+Grim Barrage,896218139,PA,2 gear
+Grim Barrage,896218138,PA,3 gear
+Grim Barrage,1235843178,PA,Grim Barrage (part 2) 0 gear
+Grim Barrage,1235843181,PA,1 gear
+Grim Barrage,1235843180,PA,2 gear
+Grim Barrage,1235843183,PA,3 gear
+JB hit,3540874879,Melee,First Attack
+JB hit,2778548652,Melee,Second Attack
+JB hit,3614558463,Melee,Third Attack
+JB Step Attack,798466786,Melee,Step Attack
+JB hit,2184540187,Melee,Shift Action
+JB hit,747815998,Special,Jump hit (Fire)
+JB hit,1254493977,Special,Jump hit (Ice)
+JB hit,3280158646,Special,Jump hit (Lightning)
+JB hit,2954183594,Special,Jump hit (Wind)
+JB hit,1853582271,Special,Jump hit (Light)
+JB hit,580662444,Special,Jump hit (Dark)
+Strike Gust,2440471691,PA,Strike Gust (uncharged first two)
+Strike Gust,3982071982,PA,Strike Gust (uncharged final)
+Strike Gust,2049018178,PA,Strike Gust (half charge first three)
+Strike Gust,2476784422,PA,Strike Gust (half charge final)
+Strike Gust,1301043509,PA,Strike Gust (charged first four)
+Strike Gust,3955365271,PA,Strike Gust (final)
+Strike Gust,3088217635,PA,Strike Gust (interrupt)
+Strike Gust (C),1462163353,PA,Strike Gust (Type-0) first charge
+Strike Gust (C),2869687889,PA,Strike Gust (Type-0) first charge shift action
+Strike Gust (C),1071365573,PA,Strike Gust (Type-0) second charge
+Strike Gust (C),452976794,PA,Strike Gust (Type-0) second charge shift action first hit
+Strike Gust (C),1808168665,PA,Strike Gust (Type-0) second charge shift action
+Gran Wave,424716447,PA,Gran Wave (first kick)
+Gran Wave,3764244857,PA,Gran Wave (kick volle)
+Gran Wave,228498928,PA,Gran Wave final kick
+Gran Wave,147222821,PA,Gran Wave (interrupt)
+Moment Gale,1327336062,PA,Moment Gale
+Moment Gale,4236946851,PA,Moment Gale (interrupt part 1)
+Vinto Gigue,4124802045,PA,Vinto (explode)
+Vinto Gigue,2398433897,PA,Vinto (explode any gear)
+Vinto Gigue,3958422470,PA,Vinto (kick)
+Vinto Gigue,1528400162,PA,Vinto (kick half gear)
+Vinto Gigue,3849186397,PA,Vinto Gigue (full gear explosion)
+Vinto Gigue,598735040,PA,Vinto (kick full gear)
+Elemental Burst,844099599,Special,Fire Elemental Burst (Bo skill)
+Elemental Burst,436531970,Special,Ice Elemental Burst (Bo skill)
+Elemental Burst,3183103116,Special,Lightning Elemental Burst (Bo skill)
+Elemental Burst,3999693063,Special,Wind Elemental Burst (Bo skill)
+Elemental Burst,1812915089,Special,Light Elemental Burst (Bo skill)
+Elemental Burst,606506553,Special,Dark Elemental Burst (Bo skill)
+Takt hit,4065469038,Melee,Baton attack
+Wanda hit,2785585589,Melee,Wanda auto-attack 1
+Wanda hit,2785585652,Melee,Wanda auto-attack 2
+Wanda hit,2785585714,Melee,Wanda auto-attack 3
+Wanda Assault,933681441,PA,Wanda Assault
+Wanda Break,3960069561,PA,Wanda Break
+Wanda Shock,3960069496,PA,Wanda Shock
+Wanda Pulsar,933701936,PA,Wanda Pulsar
+Wanda Pulsar,4223323079,PA,Wanda Pulsar
+Wanda Slicer,2918501417,PA,Wanda Slicer
+Wanda Slicer,2918501480,PA,Wanda Slicer
+Cery hit,639929291,Melee,Cery auto-attack 1
+Cery Plode,2156897712,PA,Cery Plode
+Cery/Popple Territory,493814577,PA,Cery/Popple Territory
+Cery/Popple Territory,493814640,PA,Cery/Popple Territory power-up
+Cery Curse,3581010262,PA,Cery Curse
+Cery Fall,385030021,PA,Cery Fall
+Cery Chaser,385050960,PA,Cery Chaser
+Trim hit,487482498,Melee,Trim auto-attack 1
+Trim hit,487482435,Melee,Trim auto-attack 2
+Trim hit,487489051,Melee,Trim auto-attack 3
+Trim Stab,4093858806,PA,Trim Stab
+Trim Spiral,2211899418,PA,Trim Spiral (uncharged)
+Trim Spiral,2211899483,PA,Trim Spiral (charge lv.1)
+Trim Spiral,926005986,PA,Trim Spiral (charge lv.1 & Trim Shout version)
+Trim Spiral,2211900312,PA,Trim Spiral (charge lv.2)
+Trim Spiral,926861457,PA,Trim Spiral (charge lv.2 & Trim Shout version)
+Trim Bullet,672081019,PA,Trim Bullet first hit
+Trim Bullet,2052351310,PA,Trim Bullet wing melee hit
+Trim Bullet,4238918539,PA,Trim Bullet poison/burnlike damage
+Trim Bullet,4238918472,PA,Trim Bullet poison/burnlike damage (Trim Shout version)
+Trim Shout,4093858743,PA,Trim Shout
+Trim Slash,4093858613,PA,Trim Slash
+Trim Slash,672024361,PA,Trim Slash (Trim Shout version)
+Maron hit,2944355330,Melee,Maron first normal attack
+Maron hit,2944352598,Melee,Maron second normal attack
+Maron hit,2944352663,Melee,Maron third normal attack
+Maron Strike,3595323408,PA,Maron Strike
+Maron Strike,3595323990,PA,Maron Strike charge 1
+Maron Strike,3595323799,PA,Maron Strike charge 2
+Maron Strike (damage to owner),4118650930,PA,Maron Strike explosion
+Maron Break,115059488,PA,Maron Break
+Maron Slicer,115059427,PA,Maron Chaser
+Maron Curse,1099252288,PA,Maron Curse first hit
+Maron Curse,1102156943,PA,Maron Curse
+Maron/Melon Strike (damage to pet),3460765776,PA,Maron/Melon Strike pet damage taken
+Melon hit,2920779330,PA,Melon first normal attack
+Melon hit,2920778756,PA,Melon second normal attack
+Melon hit,2920778949,PA,Melon third normal attack
+Melon Strike,3889466000,PA,Melon Strike
+Melon Strike,3889465937,PA,Melon Strike charge 1
+Melon Strike,3889465879,PA,Melon Strike charge 2
+Melon Strike (damage to owner),1160289435,PA,Melon Strike explosion
+Melon Break,3771080959,PA,Melon Break
+Melon Slicer,3771080766,PA,Melon Chaser
+Melon Curse,745748621,PA,Melon Curse first hit
+Melon Curse,745791480,PA,Melon Curse
+Rappy(Pet) hit,2042365716,Melee,Rappy (pet) normal attack
+Rappy Melody,3463249617,PA,Rappy Melody attack (pet)
+Rappy Melody,12316684,PA,Rappy Melody heal (pet)
+Rappy Drop,1380676151,PA,Rappy Drop (pet)
+Rappy Cannon,1380677110,PA,Rappy Cannon (pet)
+Rappy Sonic,401389881,PA,Rappy Sonic (pet)
+Rappy End,1793658679,PA,Rappy End stage 1 (pet)
+Rappy End,1793658742,PA,Rappy End stage 2 (pet)
+Rappy End,1793658549,PA,Rappy End stage 3 (pet)
+Viola hit,1596394370,Melee,Viola first normal attack
+Viola hit,1596394307,Melee,Viola second normal attack
+Viola hit,1596393984,Melee,Viola third normal attack
+Viola Slicer,4259075413,PA,Viola Slicer first hit
+Viola Slicer,4259075094,PA,Viola Slicer second hit
+Viola Stamp,555203454,PA,Viola Stamp
+Viola Stamp,4244643339,PA,Viola Stamp hard hit
+Viola Pulsar,555201434,PA,Viola Pulsar first hit
+Viola Pulsar,201300655,PA,Viola Pulsar burn/poisonlike damage
+Viola Assault,555201499,PA,Viola Assault
+Viola Slicer,2643918256,PA,Viola Slicer first hit (Viola Change'd version)
+Viola Slicer,2643918193,PA,Viola Slicer second hit (Viola Change'd version)
+Viola Stamp,4259879100,PA,Viola Stamp (Viola Change'd version)
+Viola Stamp,375503608,PA,Viola Stamp hard hit (Viola Change'd version)
+Viola Pulsar,4234893896,PA,Viola Pulsar first hit (Viola Change'd version)
+Viola Pulsar,444146511,PA,Viola Pulsar burn/poisonlike damage (Viola Change'd version)
+Viola Assault,4235149933,PA,Viola Assault (Viola Change'd version)
+Synchro hit,1147655708,Melee,Synchro first normal hit
+Synchro hit,1147655711,Melee,Synchro second normal hit
+Synchro hit,1147655710,Melee,Synchro third normal hit
+Synchro Zan,2368496396,PA,Synchro Zan
+Synchro Zan,932657263,PA,Synchro Zan PA succession
+Synchro Kyaku,2368496330,PA,Synchro Kyaku
+Synchro Kyaku,1954712103,PA,Synchro Kyaku PA succession
+Synchro Ken,2368496267,PA,Synchro Ken
+Synchro Ken,3201748996,PA,Synchro Ken PA succession
+Synchro Dan,2368496200,PA,Synchro Dan
+Synchro Dan,4256887742,PA,Synchro Dan PA succession
+Synchro Geki,2905893090,PA,Synchro Geki
+Synchro Geki,2905888420,PA,Synchro Geki 2 PA succession
+Synchro Geki,2905888357,PA,Synchro Geki 3 PA succession
+Synchro Geki,2905888294,PA,Synchro Geki 4 PA succession
+Jinga hit,2981353400,Melee,Jinga first normal attack
+Jinga hit,2981353465,Melee,Jinga second normal attack
+Jinga hit,2981351487,Melee,Jinga third normal attack
+Jinga Slicer,3467827123,PA,Jinga Slicer first hit
+Jinga Slicer,3467827186,PA,Jinga Slicer second hit
+Jinga Shock,2252116314,PA,Jinga Shock
+Jinga Break,2252115978,PA,Jinga Break
+Jinga Pulsar,3369486556,PA,Jinga Pulsar
+Jinga Pulsar,3606184590,PA,Jinga Pulsar hard hit
+Jinga Assault,3369572495,PA,Jinga Assault
+Popple hit,578161427,Melee,Popple normal attack
+Popple Splode,2622073432,PA,Popple Splode uncharged
+Popple Splode,850642716,PA,Popple Splode charged
+Popple Fall,1711861634,PA,Popple Fall
+Popple Chaser,1711859717,PA,Popple Chaser
+Popple Curse,3737792897,PA,Popple Curse
+Aero hit,37070160,Melee,Aero first normal attack
+Aero hit,37070227,Melee,Aero second normal attack
+Aero hit,37070290,Melee,Aero third normal attack
+Aero Shout,772156432,PA,Aero Shout
+Aero Stab,772155588,PA,Aero Stab
+Aero Slash,772155525,PA,Aero Slash
+Aero Slash,88413264,PA,Aero Slash (Aero Shout version)
+Aero Spiral,4119800976,PA,Aero Spiral uncharged
+Aero Spiral,4119798486,PA,Aero Spiral first charge
+Aero Spiral,663625842,PA,Aero Spiral first charge afterwave
+Aero Spiral,3404526192,PA,Aero Spiral first charge (Aero Shout version)
+Aero Spiral,2888644253,PA,Aero Spiral first charge afterwave (Aero Shout version)
+Aero Spiral,4119798295,PA,Aero Spiral second charge
+Aero Spiral,647460626,PA,Aero Spiral second charge afterwave
+Aero Spiral,3404513889,PA,Aero Spiral second charge (Aero Shout version)
+Aero Spiral,1798066999,PA,Aero Spiral second charge afterwave (Aero Shout version)
+Aero Bullet,88471088,PA,Aero Bullet first hit
+Aero Bullet,3446126836,PA,Aero Bullet
+Aero Bullet,3446127031,PA,Aero Bullet (Aero Shout version)
+Aero Bullet,2572277765,PA,Aero Bullet melee hit
+Ledran hit,2131775436,Melee,Ledran normal attack
+Ledran Laser,1219413769,PA,Ledran Laser 1-3 lock-on
+Ledran Laser,1219413832,PA,Ledran Laser 4-7 lock-on
+Ledran Laser,1219413643,PA,Ledran Laser 8 lock-on
+Ledran Slash,4244805011,PA,Ledran Slash
+Ledran Mine,4244805205,PA,Ledran Mine hit
+Ledran Mine,1312015390,PA,Ledran Mine explosion
+Ledran Burst,1282005173,PA,Ledran Burst 1-3 balls
+Ledran Burst,1282005238,PA,Ledran Burst 4-7 balls
+Ledran Burst,1282005047,PA,Ledran Burst 8 balls
+Sword hit (Hero),2444771520,Melee,Hero Sword first normal attack
+Sword hit (Hero),2444771715,Melee,Hero Sword second normal attack
+Sword hit (Hero),2832347180,Melee,Hero Sword third normal attack first hit
+Sword hit (Hero),2832347245,Melee,Hero Sword third normal attack second hit
+Sword hit (Hero),2441204331,Melee,Hero Sword first normal attack air
+Sword hit (Hero),2441204394,Melee,Hero Sword second normal attack air
+Sword hit (Hero),3756260250,Melee,Hero Sword third normal attack first hit air
+Sword hit (Hero),3756260700,Melee,Hero Sword third normal attack second hit air
+Sword Step Attack (Hero),2448594388,Melee,Hero Sword Step Attack
+Sword Step Attack (Hero),2094998893,Melee,Hero Sword Step Attack after dodge
+Sword Weapon Action (Hero),3043390195,Special,Hero Sword Weapon Action no charge
+Sword Weapon Action (Hero),4293352220,Special,Hero Sword Weapon Action charge lv.1
+Sword Weapon Action (Hero),669993200,Special,Hero Sword Weapon Action charge lv.2
+Rising Slash,717168700,PA,Rising Slash start
+Rising Slash,1830196905,PA,Rising Slash slashes
+Rising Slash,3710313763,PA,Rising Slash final part first hit
+Rising Slash,3710313824,PA,Rising Slash final part second hit
+Rising Slash,2089764912,PA,Rising Slash final part final hit
+Rising Slash,718899304,PA,Rising Slash start air
+Brightness End,718820347,PA,Brightness End first hit
+Brightness End,346766635,PA,Brightness End slash
+Flash Trick,715425742,PA,Flash Trick weapon hit
+Flash Trick,715424670,PA,Flash Trick finish
+Vapor Bullet,673837877,PA,Vapor Bullet
+Talis hit (Hero),3317919827,Ranged,Hero Talis first normal attack
+Talis hit (Hero),3317921051,Ranged,Hero Talis second normal attack
+Talis hit (Hero),3317921242,Ranged,Hero Talis third normal attack
+Talis Weapon Action (Hero),1159592166,Ranged,Hero Talis Weapon Action hit
+Talis Step Attack (Hero),3318755300,Ranged,Hero Talis Step Attack
+Talis Step Attack (Hero),1089593935,Ranged,Hero Talis Step Attack after dodge
+Talis Step Attack (Hero),4105920492,Ranged,Hero Talis Step Attack after dodge
+Jet Wheel,1736785343,PA,Jet Wheel talis hit(s)
+Jet Wheel,3161437904,PA,Jet Wheel aoe
+Jet Wheel,2852176964,PA,Jet Wheel when switched to Sword
+Jet Wheel,2852180670,PA,Jet Wheel when switched to TMG
+Wise Hound,209487851,PA,Wise Hound
+Wise Hound,507041974,PA,Wise Hound when switched to Sword
+Wise Hound,507041839,PA,Wise Hound when switched to TMG
+Dive of Bullet,1342643252,PA,Dive of Bullet
+Racer Edge,1422891855,PA,Racer Edge
+TMG hit (Hero),1403081519,Ranged,Hero TMG normal attack
+TMG Step Attack (Hero),2834748182,Ranged,Hero TMG Step Attack
+TMG Step Attack (Hero),1905792389,Ranged,Hero TMG Step Attack after dodge
+Brand New Star,2832005595,PA,Brand New Star
+Brand New Star,1399183080,PA,Brand New Star after dodge
+Final Storm,2832005530,PA,Final Storm
+Second Edge,2832005465,PA,Second Edge
+Moment Trick,2832005400,PA,Moment Trick
+Switch to Sword,2817683590,Melee,Switch to Sword
+Switch to Talis,1591095807,Ranged,Switch to Talis
+Switch to TMG,2461200579,Ranged,Switch to TMG
+Hero Time (Sword),2268332858,Special,Hero Time Sword slashes
+Hero Time (Sword),170999070,Special,Hero Time Sword finish
+Hero Time (Sword),2268332813,Special,Hero Time Sword finish hard hit
+Hero Time (Talis),1266101764,Special,Hero Time Talis pull-in
+Hero Time (Talis),11556353,Special,Hero Time Talis slashes
+Hero Time (Talis),1233721870,Special,Hero Time Talis slashes while switched to Sword
+Hero Time (Talis),1233722348,Special,Hero Time Talis slashes while switched to TMG
+Hero Time (TMG),3480338695,Special,Hero Time TMG burst
+Next Jump,3274240781,Special,Next Jump (Hero's double jump)
+Dissipating Wave,3065779197,Special,Dissipating Wave (Form series) (Weapon Potential)
+Dissipating Wave,3065779131,Special,Dissipating Wave (Form series) (Weapon Potential)
+Dissipating Wave,3065778236,Special,Dissipating Wave (Form series) (Weapon Potential)
+Mysterious Conjurer,4139628318,Special,Mysterious Conjurer (Lavis Cannon) (Weapon Potential)
+BOOSTO KICKU,85301614,Special,Tokyo speed-pad kick level 1
+BOOSTO KICKU,85302964,Special,Tokyo speed-pad kick level 2 
+BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick level 3
+BOOSTO KICKU,85301612,Special,Tokyo speed-pad kick level 1 on cars
+BOOSTO KICKU,85302966,Special,Tokyo speed-pad kick level 2 on cars
+BOOSTO KICKU,85303031,Special,Tokyo speed-pad kick level 3 on cars
+Mag (Attack),2667138551,Special,Mag action (S-ATK Attack)
+Mag (Blow),3296842070,Special,Mag action (S-ATK Blow)
+Mag (Upper),546125641,Special,Mag action (S-ATK Upper)
+Mag (Fire Bullet),1810252617,Special,Mag action (R-ATK Fire Bullet)
+Mag (Ice Bullet),1509329819,Special,Mag action (R-ATK Ice Bullet)
+Mag (Lightning Bullet),887429903,Special,Mag action (R-ATK Lightning Bullet)
+Mag (Wind Bullets),1747262548,Special,Mag action (R-ATK Wind Bullets)
+Mag (Light Bullet),3303318723,Special,Mag action (R-ATK Light Bullet)
+Mag (Dark Bullet),1811866223,Special,Mag action (R-ATK Dark Bullet)
+Mag (Piercing Fire Bullet),183890233,Special,Mag action (R-ATK Piercing Fire Bullet)
+Mag (Piercing Ice Bullet),3146527639,Special,Mag action (R-ATK Piercing Ice Bullet)
+Mag (Piercing Lightning Bullet),2042405421,Special,Mag action (R-ATK Piercing Lightning Bullet)
+Mag (Piercing Wind Bullet),195905495,Special,Mag action (R-ATK Piercing Wind Bullet)
+Mag (Piercing Light Bullet),2373460025,Special,Mag action (R-ATK Piercing Light Bullet)
+Mag (Piercing Dark Bullet),196570118,Special,Mag action (R-ATK Piercing Dark Bullet)
+Mag (Exploding Fire Bullet),867373469,Special,Mag action (R-ATK Exploding Fire Bullet)
+Mag (Exploding Ice Bullet),1542931456,Special,Mag action (R-ATK Exploding Ice Bullet)
+Mag (Exploding Lightning Bullet),3126711672,Special,Mag action (R-ATK Exploding Lightning Bullet)
+Mag (Exploding Wind Bullet),1687392375,Special,Mag action (R-ATK Exploding Wind Bullet)
+Mag (Exploding Light Bullet),649064981,Special,Mag action (R-ATK Exploding Light Bullet)
+Mag (Exploding Dark Bullet),2364012448,Special,Mag action (R-ATK Exploding Dark Bullet)
+Mag (Foie),1049123664,Special,Mag action (T-ATK Foie)
+Mag (Barta),3760306129,Special,Mag action (T-ATK Barta)
+Mag (Zonde),4075390095,Special,Mag action (T-ATK Zonde)
+Mag (Zan),912617849,Special,Mag action (T-ATK Zan)
+Mag (Grants),1886571787,Special,Mag action (T-ATK Grants)
+Mag (Megid),1059126347,Special,Mag action (T-ATK Megid)
+Mag (Clobber),3104220402,Special,Mag action (SP S-ATK Clobber)
+Mag (Vulcan),4205203418,Special,Mag action (SP R-ATK Vulcan)
+Helix Proi,2004640116,Special,PB Helix Proi 0+1+2-chain
+Helix Proi,1792224906,Special,PB Helix Proi 3-chain
+Helix Imera,1075221526,Special,PB Helix Imera aoe attack 0-chain
+Helix Imera,1817839236,Special,PB Helix Imera first hit 1++-chain
+Helix Imera,3826344072,Special,PB Helix Imera aoe attack 1+2-chain
+Helix Imera,4211237222,Special,PB Helix Imera aoe attack 3-chain           
+Helix Nykta,3903398021,Special,PB Helix Nykta horn hit 0+1-chain
+Helix Nykta,823402941,Special,PB Helix Nykta horn hit 2+3-chain
+Helix Nykta,3627456031,Special,PB Helix Nykta landing hit 0+1-chain
+Helix Nykta,2415309454,Special,PB Helix Nykta landing hit 2+3-chain
+Ajax Proi,718460570,Special,PB Ajax Proi 0+1+2-chain
+Ajax Proi,498592293,Special,PB Ajax Proi 3-chain
+Ajax Imera,4274907792,Special,PB Ajax Imera 0+1+2-chain
+Ajax Imera,2379589576,Special,PB Ajax Imera 3-chain
+Ajax Nykta,3512301214,Special,PB Ajax Nykta first hit 0+1-chain
+Ajax Nykta,1846509854,Special,PB Ajax Nykta first hit 2+3-chain
+Ajax Nykta,3625928312,Special,PB Ajax Nykta second hit 0+1-chain
+Ajax Nykta,2811060000,Special,PB Ajax Nykta second hit 2+3-chain
+Ketos Proi,4277784487,Special,PB Ketos Proi 0+1+2+3-chain
+Ketos Imera,430308113,Special,PB Ketos Imera 0-chain
+Ketos Imera,413582417,Special,PB Ketos Imera 1-chain
+Ketos Imera,4017106933,Special,PB Ketos Imera 2-chain
+Ketos Imera,380422613,Special,PB Ketos Imera 3-chain
+Ketos Nykta,1161221232,Special,PB Ketos Nykta 0+1-chain
+Ketos Nykta,320287461,Special,PB Ketos Nykta 2-chain
+Ketos Nykta,3929437971,Special,PB Ketos Nykta 3-chain
+Julius Proi,2074769727,Special,PB Julius Proi 0-chain
+Julius Proi,2074769724,Special,PB Julius Proi 1-chain
+Julius Proi,2074769725,Special,PB Julius Proi 2-chain
+Julius Proi,2074769722,Special,PB Julius Proi 3-chain
+Julius Proi,2224628886,Special,PB Julius Proi final blast 0-chain
+Julius Proi,2224628885,Special,PB Julius Proi final blast 1-chain
+Julius Proi,2224628884,Special,PB Julius Proi final blast 2-chain
+Julius Proi,2224628883,Special,PB Julius Proi final blast 3-chain
+Julius Imera,3412523140,Special,PB Julius Imera 0-chain
+Julius Imera,3412523139,Special,PB Julius Imera 1-chain
+Julius Imera,3412523138,Special,PB Julius Imera 2-chain
+Julius Imera,3412523137,Special,PB Julius Imera 3-chain
+Julius Nykta,764702094,Special,PB Julius Nykta 0-chain
+Julius Nykta,764702093,Special,PB Julius Nykta 1-chain
+Julius Nykta,764702092,Special,PB Julius Nykta 2-chain
+Julius Nykta,764702091,Special,PB Julius Nykta 3-chain
+Ilios Proi,2814861617,Special,PB Ilios Proi 0-chain
+Ilios Proi,2814861618,Special,PB Ilios Proi 1-chain
+Ilios Proi,2814861619,Special,PB Ilios Proi 2-chain
+Ilios Proi,2814861772,Special,PB Ilios Proi 3-chain
+Ilios Imera,2207342095,Special,PB Ilios Imera 0-chain
+Ilios Imera,2207342092,Special,PB Ilios Imera 1-chain
+Ilios Imera,2207342093,Special,PB Ilios Imera 2-chain
+Ilios Imera,2207342090,Special,PB Ilios Imera 3-chain
+Ilios Nykta,4037912096,Special,PB Ilios Nykta 0-chain
+Ilios Nykta,4037912097,Special,PB Ilios Nykta 1-chain
+Ilios Nykta,4037912102,Special,PB Ilios Nykta 2-chain
+Ilios Nykta,4037912103,Special,PB Ilios Nykta 3-chain
+Burn,2505928570,Status,Burn Status Effect (level 1)
+Burn,2505928505,Status,Burn Status Effect (level 2)
+Burn,2505928696,Status,Burn Status Effect (level 3)
+Burn,2505928584,Status,Burn Status Effect (level 4)
+Burn,2505927753,Status,Burn Status Effect (level 5)
+Poison,1739789695,Status,Poison Status Effect (level 1)
+Poison,1739789694,Status,Poison Status Effect (level 2)
+Poison,1739789665,Status,Poison Status Effect (level 3)
+Poison,1739789664,Status,Poison Status Effect (level 4)
+Poison,1739789667,Status,Poison Status Effect (level 5)
+Just Reversal B,3580699874,Special,Just Reversal B ring
+Monomate,2925757257,Special,Monomate (Automate Halfline/Deadline also uses this)
+Dimate,2925757256,Special,Dimate (Automate Halfline/Deadline also uses this)
+Trimate,2925757259,Special,Trimate (Automate Halfline/Deadline also uses this)
+Star Atomizer,2925757249,Special,Star Atomizer
+Recovery Pod,633660526,Special,Recovery Pod (found before bosses & 'リカバリーポッド')
+Restoration Pod,458852839,Special,Restoration Pod (random spawn on maps & '回復ポッド')
+Healing Guard,662646057,Special,Healing Guard (Hu skill)
+'Wound' state end,140040,Special,'Wound' state ending (Limit Break/PP Convert & Bayaribbles/Guar-Zigmorde/Hunar/Blu Ringahda/Viel all inflict this)
+Just Reversal Cover,2440029502,Special,Just Reversal Cover (Br skill)
+Heal Share,2616315751,Special,Heal Share (Bo skill)
+Damage Absorbed,893379015,Special,Vampiric Blade/Celestial Bullet/Megiverse all belong here
+Lunar Eclipse,2608912395,Special,Lunar Eclipse (Weapon Potential)
+Tokyo Style Hamburger,585389849,Special,Tokyo Style Hamburger (Cuisine)
+Emperappy hug <3,2088559161,Special,Emperappy hug <3
+Magnetic Needle,2370429206,Special,Magnetic Needle (Skyscape areas)
+Circle Laser,2939688058,Special,Circle Laser (random spawn on maps)
+Turret,1852253343,Special,Normal Turret
+Rodos Grapple Turret,1358461404,Special,Rodos Grapple Turret
+Cannon,2414748436,Special,Facility Cannon
+Photon Cannon,1954812953,Special,Photon Cannon uncharged
+Photon Cannon,2822784832,Special,Photon Cannon charged
+Binding Arrow Turret,791327364,Special,Binding Arrow Turret
+Photon Particle Turret,3339644659,Special,Photon Particle Turret
+Photon Laser Cannon,2676260123,Special,Photon Laser Cannon
+Photon Punisher,224805109,Special,Photon Punisher
+AIS Solid Vulcan,119505187,Special,A.I.S rifle (Solid Vulcan)
+AIS Photon Saber,79965782,Special,A.I.S melee first attack (Photon Saber)
+AIS Photon Saber,79965783,Special,A.I.S melee second attack (Photon Saber)
+AIS Photon Saber,79965784,Special,A.I.S melee third attack (Photon Saber)
+AIS Photon Saber,80047171,Special,A.I.S dash melee (Photon Saber)
+AIS Photon Grenade,434705298,Special,A.I.S rockets (Photon Grenade)
+AIS Photon Rush,79964675,Special,A.I.S gap closer PA attack (Photon Rush)
+AIS Photon Blaster,1460054769,Special,A.I.S cannon (Photon Blaster)
+AIS Photon Blizzard,4081218683,Special,A.I.S mob freezing attack (Photon Blizzard)
+AIS Weak Bullet,3298256598,Special,A.I.S Weak Bullet
+AIS Area Heal,2826401717,Special,A.I.S Area Heal
+Rideroid,3491866260,Special,Rideroid throw
+Rideroid,2056025809,Special,Rideroid hit forward slow
+Rideroid,2534881408,Special,Rideroid hit forward stop
+Rideroid,1247666429,Special,Rideroid hit forward fast
+Rideroid,2600476838,Special,Rideroid hit dodge
+Rideroid,3642240295,Special,Big UFO Core hit?
+Rideroid,651750924,Special,Big UFO hit?
+Rideroid,3750571080,Special,Big UFO outer control unit hit?
+Rideroid,2452463220,Special,something relating to big ufo and rideroid
+Rideroid,1732461796,Special,something relating to big ufo and rideroid 
+Rideroid,3809261131,Special,something relating to big ufo and rideroid 
+Rideroid heal ring,645891880,Special,Rideroid heal ring
+Rideroid,1876785244,Special,Rideroid auto-attack (Mother phase 1)
+Rideroid Homing Missiles,3765765641,Special,Rideroid rockets (Mother phase 1)
+Rideroid Spin,3642969286,Special,Rideroid barrel roll (Mother phase 1)
+Rideroid Spin,1258041436,Special,Rideroid Mother's wall spun back (Mother phase 1)
