@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
+import {ChangeDetectorRef, Component, OnInit, ViewChild} from '@angular/core';
 import {DataSource} from '@angular/cdk';
 import {BehaviorSubject} from 'rxjs/BehaviorSubject';
 import {Observable} from 'rxjs/Observable';
@@ -15,15 +15,27 @@ import {MdSort} from '@angular/material';
 })
 export class RecounterComponent implements OnInit {
 
-  displayedColumns = ['userName', 'DPS', 'Damage'];
+  displayedColumns = ['sourceName', 'DPS', 'Damage'];
   damageDatabase = new DamgerDatabase();
   dataSource: DamageDataSource;
   @ViewChild(MdSort) sort: MdSort;
 
-  ngOnInit() {
-    this.dataSource = new DamageDataSource(this.damageDatabase, this.sort);
+  constructor(private changeDetector: ChangeDetectorRef) {
+
   }
 
+  ngOnInit() {
+    this.dataSource = new DamageDataSource(this.damageDatabase, this.sort);
+    this.changeDetector.detectChanges();
+  }
+
+  updateDamage() {
+    this.damageDatabase.addUser();
+  }
+
+  cleanUp() {
+    this.damageDatabase.clean();
+  }
 }
 
 export class DamgerDatabase {
@@ -35,9 +47,7 @@ export class DamgerDatabase {
   }
 
   constructor() {
-    for (let i = 0; i < 100; i++) {
-      this.addUser();
-    }
+    this.addUser()
   }
 
   /** Adds a new user to the database. */
@@ -47,8 +57,12 @@ export class DamgerDatabase {
     this.dataChange.next(copiedData);
   }
 
-  private createNewUser() {
+  clean() {
+    this.dataChange.next([]);
+    this.addUser()
+  }
 
+  private createNewUser() {
     return {
       sourceName: 'Kana',
       DPS: 1,
@@ -76,6 +90,7 @@ export class DamageDataSource extends DataSource<any> {
   }
 
   disconnect() {
+    console.log('disconnect');
   }
 
   getSortedData(): DisplayData[] {

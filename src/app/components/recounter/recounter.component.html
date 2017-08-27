@@ -5,9 +5,9 @@
           The actual rendered columns are set as a property on the row definition" -->
 
     <!-- ID Column -->
-    <ng-container cdkColumnDef="userName">
-      <md-header-cell *cdkHeaderCellDef> userName</md-header-cell>
-      <md-cell *cdkCellDef="let row"> {{row.userName}}</md-cell>
+    <ng-container cdkColumnDef="sourceName">
+      <md-header-cell *cdkHeaderCellDef> sourceName</md-header-cell>
+      <md-cell *cdkCellDef="let row"> {{row.sourceName}}</md-cell>
     </ng-container>
 
     <!-- Progress Column -->
@@ -26,4 +26,8 @@
     <md-header-row *cdkHeaderRowDef="displayedColumns"></md-header-row>
     <md-row *cdkRowDef="let row; columns: displayedColumns;"></md-row>
   </md-table>
+  <div class="example-button-row">
+    <a md-button (click)="updateDamage()">Add Test</a>
+    <a md-button (click)="cleanUp()">Clean up</a>
+  </div>
 </div>
