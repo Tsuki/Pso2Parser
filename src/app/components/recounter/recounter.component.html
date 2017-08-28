@@ -1,24 +1,18 @@
-<div class="example-container mat-elevation-z8">
+<div class="counter-container mat-elevation-z8">
   <md-table #table [dataSource]="dataSource" mdSort>
 
-    <!--- Note that these columns can be defined in any order.
-          The actual rendered columns are set as a property on the row definition" -->
-
-    <!-- ID Column -->
     <ng-container cdkColumnDef="sourceName">
-      <md-header-cell *cdkHeaderCellDef> sourceName</md-header-cell>
+      <md-header-cell *cdkHeaderCellDef md-sort-header> sourceName</md-header-cell>
       <md-cell *cdkCellDef="let row"> {{row.sourceName}}</md-cell>
     </ng-container>
 
-    <!-- Progress Column -->
     <ng-container cdkColumnDef="DPS">
-      <md-header-cell *cdkHeaderCellDef> DPS</md-header-cell>
+      <md-header-cell *cdkHeaderCellDef md-sort-header> DPS</md-header-cell>
       <md-cell *cdkCellDef="let row"> {{row.DPS}}%</md-cell>
     </ng-container>
 
-    <!-- Name Column -->
     <ng-container cdkColumnDef="Damage">
-      <md-header-cell *cdkHeaderCellDef> Damage</md-header-cell>
+      <md-header-cell *cdkHeaderCellDef md-sort-header> Damage</md-header-cell>
       <md-cell *cdkCellDef="let row"> {{row.Damage}}</md-cell>
     </ng-container>
 
@@ -26,7 +20,7 @@
     <md-header-row *cdkHeaderRowDef="displayedColumns"></md-header-row>
     <md-row *cdkRowDef="let row; columns: displayedColumns;"></md-row>
   </md-table>
-  <div class="example-button-row">
+  <div class="counter-button-row">
     <a md-button (click)="updateDamage()">Add Test</a>
     <a md-button (click)="cleanUp()">Clean up</a>
   </div>
