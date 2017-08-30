@@ -12,8 +12,8 @@ if (serve) {
 
 function createWindow() {
 
-  const electronScreen = screen;
-  const size = electronScreen.getPrimaryDisplay().workAreaSize;
+  // const electronScreen = screen;
+  // const size = electronScreen.getPrimaryDisplay().workAreaSize;
 
   // Create the browser window.
   win = new BrowserWindow({
@@ -21,7 +21,7 @@ function createWindow() {
     // y: 0,
     width: 800,
     height: 600,
-    resizable: false
+    resizable: true
   });
 
   // and load the index.html of the app.

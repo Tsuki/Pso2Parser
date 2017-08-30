@@ -5,7 +5,7 @@ import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/operator/startWith';
 import 'rxjs/add/observable/merge';
 import 'rxjs/add/operator/map';
-import {DisplayData} from '../../interface/damge';
+import {Damage, DisplayData} from '../../interface/damge';
 import {MdSort} from '@angular/material';
 
 @Component({
@@ -15,7 +15,7 @@ import {MdSort} from '@angular/material';
 })
 export class RecounterComponent implements OnInit {
 
-  displayedColumns = ['sourceName', 'DPS', 'Damage'];
+  displayedColumns = ['sourceName', 'dps', 'damage'];
   damageDatabase = new DamgerDatabase();
   dataSource: DamageDataSource;
   @ViewChild(MdSort) sort: MdSort;
@@ -38,35 +38,69 @@ export class RecounterComponent implements OnInit {
   }
 }
 
+const NAMES = ['Maia'];
+
 export class DamgerDatabase {
   /** Stream that emits whenever the data has been modified. */
-  dataChange: BehaviorSubject<DisplayData[]> = new BehaviorSubject<DisplayData[]>([]);
+  dataChange: BehaviorSubject<Map<string, DisplayData>> = new BehaviorSubject<Map<string, DisplayData>>(new Map<string, DisplayData>());
 
-  get data(): DisplayData[] {
+  get data(): Map<string, DisplayData> {
     return this.dataChange.value;
   }
 
+  instanceID: number;
+
+  static movingAvge(avg: number, newNum: number, size: number): number {
+    return ((avg * size) + newNum) / (size + 1);
+  }
+
   constructor() {
-    this.addUser()
+    this.instanceID = 0;
   }
 
   /** Adds a new user to the database. */
   addUser() {
-    const copiedData = this.data.slice();
-    copiedData.push(this.createNewUser());
+    const copiedData: Map<string, DisplayData> = this.data;
+    const detail = this.createNewDamage();
+    const displayData: DisplayData = {
+      sourceName: detail.sourceName,
+      dps: detail.damage,
+      damage: detail.damage,
+      lastTimestamp: detail.timestamp,
+      detail: [detail],
+    };
+    if (!copiedData.has(detail.sourceName)) {
+      copiedData.set(detail.sourceName, displayData);
+    } else {
+      copiedData.get(detail.sourceName).damage += detail.damage;
+      const avg = copiedData.get(detail.sourceName).dps;
+      copiedData.get(detail.sourceName).dps = DamgerDatabase.movingAvge(avg, detail.damage, displayData.detail.length);
+      copiedData.get(detail.sourceName).lastTimestamp = detail.timestamp;
+    }
     this.dataChange.next(copiedData);
   }
 
   clean() {
-    this.dataChange.next([]);
-    this.addUser()
+    this.dataChange.next(new Map<string, DisplayData>());
   }
 
-  private createNewUser() {
+
+  private createNewDamage(): Damage {
+    const name = NAMES[Math.round(Math.random() * (NAMES.length - 1))];
     return {
-      sourceName: 'Kana',
-      DPS: 1,
-      Damage: 1,
+      timestamp: new Date().getTime(),
+      instanceID: this.instanceID++,
+      sourceID: 0,
+      sourceName: name,
+      targetID: 0,
+      targetName: name,
+      attackID: 0,
+      damage: Math.round(Math.random() * (20000 - 1)),
+      IsJA: Math.random() >= 0.5,
+      IsCrit: Math.random() >= 0.5,
+      IsMultiHit: Math.random() >= 0.5,
+      IsMisc: Math.random() >= 0.5,
+      IsMisc2: Math.random() >= 0.5
     };
   }
 }
@@ -94,7 +128,10 @@ export class DamageDataSource extends DataSource<any> {
   }
 
   getSortedData(): DisplayData[] {
-    const data = this.damgerDatabase.data.slice();
+    if (this.damgerDatabase.data === null) {
+      return []
+    }
+    const data = Array.from(this.damgerDatabase.data.values());
     if (!this.sort.active || this.sort.direction === '') {
       return data;
     }
@@ -107,11 +144,11 @@ export class DamageDataSource extends DataSource<any> {
         case 'userName':
           [propertyA, propertyB] = [a.sourceName, b.sourceName];
           break;
-        case 'DPS':
-          [propertyA, propertyB] = [a.DPS, b.DPS];
+        case 'dps':
+          [propertyA, propertyB] = [a.dps, b.dps];
           break;
-        case 'Damage':
-          [propertyA, propertyB] = [a.Damage, b.Damage];
+        case 'damage':
+          [propertyA, propertyB] = [a.damage, b.damage];
           break;
       }
 

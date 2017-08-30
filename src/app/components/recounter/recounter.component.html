@@ -2,18 +2,18 @@
   <md-table #table [dataSource]="dataSource" mdSort>
 
     <ng-container cdkColumnDef="sourceName">
-      <md-header-cell *cdkHeaderCellDef md-sort-header> sourceName</md-header-cell>
+      <md-header-cell *cdkHeaderCellDef md-sort-header> Source Name</md-header-cell>
       <md-cell *cdkCellDef="let row"> {{row.sourceName}}</md-cell>
     </ng-container>
 
-    <ng-container cdkColumnDef="DPS">
+    <ng-container cdkColumnDef="dps" >
       <md-header-cell *cdkHeaderCellDef md-sort-header> DPS</md-header-cell>
-      <md-cell *cdkCellDef="let row"> {{row.DPS}}%</md-cell>
+      <md-cell *cdkCellDef="let row"> {{row.dps  | number : '1.0-0'}}</md-cell>
     </ng-container>
 
-    <ng-container cdkColumnDef="Damage">
+    <ng-container cdkColumnDef="damage" >
       <md-header-cell *cdkHeaderCellDef md-sort-header> Damage</md-header-cell>
-      <md-cell *cdkCellDef="let row"> {{row.Damage}}</md-cell>
+      <md-cell *cdkCellDef="let row"> {{row.damage  | number : '1.0-0'}}</md-cell>
     </ng-container>
 
 

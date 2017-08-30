@@ -1,5 +1,5 @@
 export interface Damage {
-  timestamp: Date,
+  timestamp: number,
   instanceID: number,
   sourceID: number,
   sourceName: string,
@@ -16,6 +16,9 @@ export interface Damage {
 
 export interface DisplayData {
   sourceName: string,
-  DPS: number,
-  Damage: number,
+  dps: number,
+  damage: number,
+  lastTimestamp: number
+  detail: [Damage],
 }
+
