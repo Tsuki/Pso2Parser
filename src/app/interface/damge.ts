@@ -18,7 +18,7 @@ export interface DisplayData {
   sourceName: string,
   dps: number,
   damage: number,
-  lastTimestamp: number
+  startTimestamp: number
   detail: [Damage],
 }
 

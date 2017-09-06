@@ -7,6 +7,11 @@ import 'rxjs/add/observable/merge';
 import 'rxjs/add/operator/map';
 import {Damage, DisplayData} from '../../interface/damge';
 import {MdSort} from '@angular/material';
+import * as fs from 'fs';
+import {join} from 'path';
+import * as readline from 'readline';
+
+const {dialog} = require('electron').remote;
 
 @Component({
   selector: 'app-recounter',
@@ -14,11 +19,12 @@ import {MdSort} from '@angular/material';
   styleUrls: ['./recounter.component.scss']
 })
 export class RecounterComponent implements OnInit {
-
   displayedColumns = ['sourceName', 'dps', 'damage'];
-  damageDatabase = new DamgerDatabase();
+  damageDatabase = new DamageDatabase();
   dataSource: DamageDataSource;
   @ViewChild(MdSort) sort: MdSort;
+  pso2File = '';
+  pso2Path = '';
 
   constructor(private changeDetector: ChangeDetectorRef) {
 
@@ -36,11 +42,27 @@ export class RecounterComponent implements OnInit {
   cleanUp() {
     this.damageDatabase.clean();
   }
+
+  onFileInput() {
+    this.pso2Path = dialog.showOpenDialog({properties: ['openDirectory']})[0];
+    const files = fs.readdirSync(this.pso2Path);
+    this.pso2File = join(this.pso2Path, files.reduce((last, current) => {
+      const currentFileDate = new Date(fs.statSync(join(this.pso2Path, current)).mtime);
+      const lastFileDate = new Date(fs.statSync(join(this.pso2Path, last)).mtime);
+      return ( currentFileDate.getTime() > lastFileDate.getTime() ) ? current : last;
+    }));
+    console.log(this.pso2File);
+    const stream = fs.createReadStream(this.pso2File);
+    const rl = readline.createInterface({input: stream, terminal: false});
+    rl.on('line', line => {
+      this.damageDatabase.addUser(line);
+    });
+  }
 }
 
 const NAMES = ['Maia'];
 
-export class DamgerDatabase {
+export class DamageDatabase {
   /** Stream that emits whenever the data has been modified. */
   dataChange: BehaviorSubject<Map<string, DisplayData>> = new BehaviorSubject<Map<string, DisplayData>>(new Map<string, DisplayData>());
 
@@ -50,32 +72,35 @@ export class DamgerDatabase {
 
   instanceID: number;
 
-  static movingAvge(avg: number, newNum: number, size: number): number {
-    return ((avg * size) + newNum) / (size + 1);
-  }
-
   constructor() {
     this.instanceID = 0;
   }
 
-  /** Adds a new user to the database. */
-  addUser() {
+  addUser(input?: string) {
     const copiedData: Map<string, DisplayData> = this.data;
-    const detail = this.createNewDamage();
+    let detail: Damage;
+    if (input != null) {
+      detail = this.parseDamage(input);
+    } else {
+      detail = this.createNewDamage();
+    }
+    if (detail == null) {
+      return
+    } else {
+    }
     const displayData: DisplayData = {
       sourceName: detail.sourceName,
       dps: detail.damage,
       damage: detail.damage,
-      lastTimestamp: detail.timestamp,
+      startTimestamp: detail.timestamp,
       detail: [detail],
     };
     if (!copiedData.has(detail.sourceName)) {
       copiedData.set(detail.sourceName, displayData);
     } else {
-      copiedData.get(detail.sourceName).damage += detail.damage;
-      const avg = copiedData.get(detail.sourceName).dps;
-      copiedData.get(detail.sourceName).dps = DamgerDatabase.movingAvge(avg, detail.damage, displayData.detail.length);
-      copiedData.get(detail.sourceName).lastTimestamp = detail.timestamp;
+      const _data = copiedData.get(detail.sourceName);
+      _data.damage += detail.damage;
+      _data.dps = _data.damage / (detail.timestamp - _data.startTimestamp)
     }
     this.dataChange.next(copiedData);
   }
@@ -88,7 +113,7 @@ export class DamgerDatabase {
   private createNewDamage(): Damage {
     const name = NAMES[Math.round(Math.random() * (NAMES.length - 1))];
     return {
-      timestamp: new Date().getTime(),
+      timestamp: new Date().getTime() / 1000,
       instanceID: this.instanceID++,
       sourceID: 0,
       sourceName: name,
@@ -103,11 +128,33 @@ export class DamgerDatabase {
       IsMisc2: Math.random() >= 0.5
     };
   }
+
+  private parseDamage(input: string): Damage {
+    const data = input.split(',');
+    if (data[0] === 'timestamp' || data[0] === '0') {
+      return null;
+    }
+    return {
+      timestamp: Number(data[0]),
+      instanceID: Number(data[1]),
+      sourceID: Number(data[2]),
+      sourceName: data[3],
+      targetID: Number(data[4]),
+      targetName: data[5],
+      attackID: Number(data[6]),
+      damage: Number(data[7]),
+      IsJA: data[8] === '1',
+      IsCrit: data[9] === '1',
+      IsMultiHit: data[10] === '1',
+      IsMisc: data[11] === '1',
+      IsMisc2: data[12] === '1',
+    };
+  }
 }
 
 
 export class DamageDataSource extends DataSource<any> {
-  constructor(private damgerDatabase: DamgerDatabase, private sort: MdSort) {
+  constructor(private damgerDatabase: DamageDatabase, private sort: MdSort) {
     super();
   }
 
