@@ -47,10 +47,9 @@ export class RecounterComponent implements OnInit {
       const lastFileDate = new Date(fs.statSync(join(this.pso2Path, last)).mtime);
       return ( currentFileDate.getTime() > lastFileDate.getTime() ) ? current : last;
     }));
-    const ft = tail.startTailing(this.pso2File);
-    console.log(this.pso2File);
+    const config = {fd: this.pso2File, ms: 100, mode: 'line', encoding: 'utf8'};
+    const ft = tail.startTailing(config);
     ft.on('line', line => {
-      console.log(line);
       this.damageDatabase.addUser(line);
     });
   }
@@ -163,8 +162,6 @@ export class DamageDatabase {
       IsMisc2: Math.random() >= 0.5
     };
   }
-
-
 }
 
 
