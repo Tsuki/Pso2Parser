@@ -6,10 +6,10 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 const postcssUrl = require('postcss-url');
 
-const { NoEmitOnErrorsPlugin, LoaderOptionsPlugin, DefinePlugin, HashedModuleIdsPlugin } = require('webpack');
-const { GlobCopyWebpackPlugin, BaseHrefWebpackPlugin } = require('@angular/cli/plugins/webpack');
-const { CommonsChunkPlugin, UglifyJsPlugin } = require('webpack').optimize;
-const { AotPlugin } = require('@ngtools/webpack');
+const {NoEmitOnErrorsPlugin, LoaderOptionsPlugin, DefinePlugin, HashedModuleIdsPlugin} = require('webpack');
+const {GlobCopyWebpackPlugin, BaseHrefWebpackPlugin} = require('@angular/cli/plugins/webpack');
+const {CommonsChunkPlugin, UglifyJsPlugin} = require('webpack').optimize;
+const {AotPlugin} = require('@ngtools/webpack');
 
 const nodeModules = path.join(process.cwd(), 'node_modules');
 const entryPoints = ["inline", "polyfills", "sw-register", "styles", "vendor", "main"];
@@ -248,6 +248,10 @@ module.exports = {
       {
         "test": /\.html$/,
         "loader": "html-loader"
+      },
+      {
+        test: /\.coffee$/,
+        use: ['coffee-loader']
       },
       {
         "test": /\.(eot|svg)$/,

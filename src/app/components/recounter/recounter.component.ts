@@ -9,7 +9,7 @@ import {Damage, DisplayData} from '../../interface/damge';
 import {MdSort} from '@angular/material';
 import * as fs from 'fs';
 import {join} from 'path';
-import * as readline from 'readline';
+import * as tail from 'file-tail';
 
 const {dialog} = require('electron').remote;
 
@@ -35,10 +35,6 @@ export class RecounterComponent implements OnInit {
     this.changeDetector.detectChanges();
   }
 
-  updateDamage() {
-    this.damageDatabase.addUser();
-  }
-
   cleanUp() {
     this.damageDatabase.clean();
   }
@@ -51,10 +47,10 @@ export class RecounterComponent implements OnInit {
       const lastFileDate = new Date(fs.statSync(join(this.pso2Path, last)).mtime);
       return ( currentFileDate.getTime() > lastFileDate.getTime() ) ? current : last;
     }));
+    const ft = tail.startTailing(this.pso2File);
     console.log(this.pso2File);
-    const stream = fs.createReadStream(this.pso2File);
-    const rl = readline.createInterface({input: stream, terminal: false});
-    rl.on('line', line => {
+    ft.on('line', line => {
+      console.log(line);
       this.damageDatabase.addUser(line);
     });
   }
@@ -72,15 +68,54 @@ export class DamageDatabase {
 
   instanceID: number;
 
+  private static parseDamage(input: string): Damage {
+    const data = input.split(',');
+    if (data[0] === '0' || data[3].match('sourceName')) {
+      return null;
+    }
+    const result = {
+      timestamp: Number(data[0]),
+      instanceID: Number(data[1]),
+      sourceID: Number(data[2]),
+      sourceName: data[3],
+      targetID: Number(data[4]),
+      targetName: data[5],
+      attackID: Number(data[6]),
+      damage: Number(data[7]),
+      IsJA: data[8] === '1',
+      IsCrit: data[9] === '1',
+      IsMultiHit: data[10] === '1',
+      IsMisc: data[11] === '1',
+      IsMisc2: data[12] === '1',
+    };
+    if (result.instanceID === result.targetID) {
+      return null
+    }
+    if (result.sourceName === 'Unknown') {
+      return null
+    }
+    if (result.damage <= 0) {
+      return null
+    }
+    if (result.IsMisc || result.IsMisc2) {
+      return null
+    }
+    if (result.sourceID < 10000000) {
+      return null
+    }
+    return result
+  }
+
   constructor() {
     this.instanceID = 0;
   }
+
 
   addUser(input?: string) {
     const copiedData: Map<string, DisplayData> = this.data;
     let detail: Damage;
     if (input != null) {
-      detail = this.parseDamage(input);
+      detail = DamageDatabase.parseDamage(input);
     } else {
       detail = this.createNewDamage();
     }
@@ -129,27 +164,7 @@ export class DamageDatabase {
     };
   }
 
-  private parseDamage(input: string): Damage {
-    const data = input.split(',');
-    if (data[0] === 'timestamp' || data[0] === '0') {
-      return null;
-    }
-    return {
-      timestamp: Number(data[0]),
-      instanceID: Number(data[1]),
-      sourceID: Number(data[2]),
-      sourceName: data[3],
-      targetID: Number(data[4]),
-      targetName: data[5],
-      attackID: Number(data[6]),
-      damage: Number(data[7]),
-      IsJA: data[8] === '1',
-      IsCrit: data[9] === '1',
-      IsMultiHit: data[10] === '1',
-      IsMisc: data[11] === '1',
-      IsMisc2: data[12] === '1',
-    };
-  }
+
 }
 
 
